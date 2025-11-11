@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>
+            HELLO
+        </p>
+        <ul id="roots">
+        </ul>
+        <button onclick="showAddRootForm()" id="form-add">ADD ROOT</button>
+        <form id="form" style="display: none;">
+            <h2>Add/Edit Root</h2>
+            <p>Root ID: <span id="form-id"></span></p>
+            <label for="form">FORM</label>
+            <input type="text" name="form" id="form-form">
+            <label for="alternate">ALTERNATE FORMS</label>
+            <input type="text" name="alternate" id="form-alternate">
+            <label for="meanings">MEANINGS</label>
+            <div id="form-meanings">
+            </div>
+            <button id="form-add-meaning">+</button>
+            <label for="origin">ORIGIN</label>
+            <input type="text" name="origin" id="form-origin">
+            <label for="category">CATEGORY</label>
+            <input type="text" name="category" id="form-category">
+            <input type="submit" value="ADD">
+        </form>
+        <a href="../index.html">HOME</a>
+        <script src="script.js"></script>
+    </body>
+</html>

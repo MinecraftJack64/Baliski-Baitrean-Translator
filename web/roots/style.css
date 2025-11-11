@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    margin: 10px 0;
+}
+.small{
+    color: gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
