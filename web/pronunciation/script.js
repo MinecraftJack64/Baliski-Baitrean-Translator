@@ -19,6 +19,7 @@ function toIPA(word = "", dialect){
         j: ["ʒ", 'fv'],
         k: ["k", 'p'],
         kh: ["x", 'f'],
+        kk: ["ʔ", 'p'],
         l: ["l", 'l'],
         lc: ["ɫ", 'c'],
         m: ["m", 'n'],
@@ -105,7 +106,7 @@ function toIPA(word = "", dialect){
                 else if(n=="h"){
                     coda = 2;
                 }
-                else if(map[n][1]!='l'&&map[n][1]!="v"){
+                else if((map[n][1]!='l'||n=='l')&&map[n][1]!="v"){
                     coda = 1;
                 }
             }else{
@@ -175,16 +176,21 @@ function toIPA(word = "", dialect){
                 continue;
             }
             let choice = map[d][0];
-            if(map[d][1]!='v'&&map[n][1]=='h'){
+            if(map[d][1]!='v'&&n=='h'){
                 if(d+'h' in map){
                     choice = map[d+'h'][0];
                 }
-            }else if(map[d][1]=='v'&&map[n][1]=='y'){
+            }else if(map[d][1]!='v'&&n==d){
+                if(d+d in map){
+                    choice = map[d+d][0];
+                    j++;
+                }
+            }else if(map[d][1]=='v'&&n=='y'){
                 if(d+'y' in map){
                     choice = map[d+'y'][0];
                     j++;
                 }
-            }else if(d=='r'||d=='l'&&j==tword.length-1){
+            }else if((d=='r'||d=='l')&&j==tword.length-1){
                 choice = map[d+'c'][0];
             }else if(d=='e'&&n=='r'){
                 choice = map['er'][0];
@@ -196,8 +202,9 @@ function toIPA(word = "", dialect){
             final = final.substring(1);
             wordf[i-1]+=final;
             wordf.pop();
+        }else{
+            wordf[i] = final;
         }
-        wordf[i] = final;
     }
     return wordf;
 }
