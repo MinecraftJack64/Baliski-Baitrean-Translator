@@ -75,7 +75,8 @@ async function load(){
     console.log("ROOTS FETCHED");
     console.log(roots);
     labelRoots();
-    //roots.sort((a, b)=>a.form>b.form)
+    roots.sort((a, b)=>a.form>b.form)
     showAllRoots();
+    console.log(roots);
 }
 load();

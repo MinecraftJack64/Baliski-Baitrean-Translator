@@ -1,562 +1,1129 @@
 [
-    {
-        "form": "ti",
-        "meanings": ["time"],
-        "category": "concept",
-        "origin": "English 'time'"
-    },
-    {
-        "form": "si",
-        "meanings": ["place/location"],
-        "category": "concept",
-        "origin": "English 'site'"
-    },
-    {
-        "form": "vi",
-        "meanings": ["more/very"],
-        "category": "quantity",
-        "origin": "English 'very'"
-    },
-    {
-        "form": "vie",
-        "meanings": ["double/two"],
-        "category": "quantity",
-        "origin": "vi+es"
-    },
-    {
-        "form": "mi",
-        "meanings": ["less/a little"],
-        "category": "quantity",
-        "origin": "English 'mini' or 'micro' or Chinese '米'"
-    },
-    {
-        "form": "mie",
-        "meanings": ["half"],
-        "category": "quantity",
-        "origin": "mi+es"
-    },
-    {
-        "form": "ni",
-        "meanings": ["not/opposite"],
-        "category": "quantity",
-        "origin": "English 'not' or 'no' or French 'ne'"
-    },
-    {
-        "form": "nü",
-        "meanings": ["not/none/0"],
-        "category": "quantity",
-        "origin": "English 'null'"
-    },
-    {
-        "form": "do",
-        "meanings": ["help", "give", "address(a person)"],
-        "origin": "French 'donner'; 3. Chinese '对'"
-    },
-    {
-        "form": "mo",
-        "meanings": ["action", "death", "end"],
-        "origin": "English 'move' or French 'mort'"
-    },
-    {
-        "form": "ta",
-        "meanings": ["companion/friend"],
-        "origin": "English 'tandem'"
-    },
-    {
-        "form": "bo",
-        "meanings": ["physical object(usually rounder). Also see 'ko'"],
-        "origin": "English 'ball' or 'bouba'"
-    },
-    {
-        "form": "la",
-        "meanings": ["person"],
-        "origin": "Unknown, possibly from French direct object complement 'la'"
-    },
-    {
-        "form": "go",
-        "meanings": ["reproduction/sex"],
-        "origin": "English 'gonad'"
-    },
-    {
-        "form": "tan",
-        "meanings": ["structure(internal)"],
-        "origin": "Chinese carbon '碳'"
-    },
-    {
-        "form": "te",
-        "meanings": ["move"],
-        "origin": "Unknown, possibly from English 'trek'"
-    },
-    {
-        "form": "ya",
-        "meanings": ["need/requirement"],
-        "origin": "Chinese '要'"
-    },
-    {
-        "form": "fi",
-        "meanings": ["liquid"],
-        "origin": "French 'fiol'"
-    },
-    {
-        "form": "di",
-        "meanings": ["solid"],
-        "origin": "Chinese '地'"
-    },
-    {
-        "form": "wi",
-        "meanings": ["gas/air"],
-        "origin": "Likely an onomatopoeia, possibly from English 'wisp'"
-    },
-    {
-        "form": "fo",
-        "meanings": ["thing"],
-        "origin": "Programming 'foo'"
-    },
-    {
-        "form": "kro",
-        "meanings": ["excretion/output"],
-        "origin": "Likely an onomatopoeia, or English 'crap'"
-    },
-    {
-        "form": "ko",
-        "meanings": ["start/beginning"],
-        "origin": "Old Baliskian 'eko', see 'ek'"
-    },
-    {
-        "form": "so",
-        "meanings": ["body"],
-        "origin": "English 'soul'"
-    },
-    {
-        "form": "vo",
-        "meanings": ["consciousness", "sound/speech"],
-        "origin": "1. Unknown; 2. French 'voix', see 'von'"
-    },
-    {
-        "form": "von",
-        "meanings": ["sound"],
-        "origin": "French 'voix', alternate form of 'vo'"
-    },
-    {
-        "form": "fay",
-        "meanings": ["make/produce/create"],
-        "origin": "French 'faire'"
-    },
-    {
-        "form": "fe",
-        "meanings": ["feeling", "challenge/game"],
-        "origin": "1. English 'feel'; 2. Retrofitted from Spanish 'feliz'"
-    },
-    {
-        "form": "wa",
-        "meanings": ["want/desire"],
-        "origin": "English 'want'"
-    },
-    {
-        "form": "zo",
-        "meanings": ["go", "progress"],
-        "origin": "Chinese '走'"
-    },
-    {
-        "form": "lo",
-        "meanings": ["part of", "small version/variant", "log/record"],
-        "origin": "Unknown; 3. English 'log'"
-    },
-    {
-        "form": "loq",
-        "form_alternate": "lots",
-        "meanings": ["allow", "ability"],
-        "origin": "English 'allow' or 'allot'"
-    },
-    {
-        "form": "ri",
-        "meanings": ["comedy/fun"],
-        "origin": "French 'rire'"
-    },
-    {
-        "form": "min",
-        "meanings": ["minimum", "at least"],
-        "origin": "English 'minimum'"
-    },
-    {
-        "form": "mak",
-        "form_alternate": "ma",
-        "meanings": ["at most/up to", "maximum"],
-        "origin": "English 'maximum'"
-    },
-    {
-        "form": "spe",
-        "meanings": ["take"],
-        "origin": "English 'spend'?"
-    },
-    {
-        "form": "da",
-        "meanings": ["reverse", "other"],
-        "origin": "'da' meaning 'you' in English"
-    },
-    {
-        "form": "jan",
-        "form_alternate": "ja",
-        "meanings": ["combine/with/together/mix"],
-        "origin": "English 'join' and Chinese '粘'"
-    },
-    {
-        "form": "ju",
-        "meanings": ["alternative", "other(not exclusive)"],
-        "origin": "j- (conjunction prefix)+French 'ou'"
-    },
-    {
-        "form": "ji",
-        "form_alternate": "jik",
-        "meanings": ["exclusive"],
-        "origin": "j- +unknown"
-    },
-    {
-        "form": "s'vo",
-        "meanings": ["life"],
-        "origin": "so+vo"
-    },
-    {
-        "form": "li",
-        "meanings": ["break/apart...", "break through/complete a challenge"],
-        "origin": "1. English 'lyse'; 2. Chinese '利', retrofitted from 'felis'"
-    },
-    {
-        "form": "vek",
-        "meanings": ["forward", "direction"],
-        "origin": "English 'vector'"
-    },
-    {
-        "form": "mek",
-        "meanings": ["back", "close"],
-        "origin": "mi+vek"
-    },
-    {
-        "form": "lek",
-        "meanings": ["far", "away"],
-        "origin": "unknown+vek"
-    },
-    {
-        "form": "pek",
-        "meanings": ["up/upwards"],
-        "origin": "English 'peck', birds in the sky"
-    },
-    {
-        "form": "dek",
-        "meanings": ["down/downwards"],
-        "origin": "English 'deck'(knocked to the ground)"
-    },
-    {
-        "form": "ki",
-        "meanings": ["to take in/sense", "who/associator"],
-        "origin": "English 'key'(enter in); 2. French 'qui' or Programming 'key'(dictionaries)"
-    },
-    {
-        "form": "pa",
-        "meanings": ["food"],
-        "origin": "French 'pain'"
-    },
-    {
-        "form": "re",
-        "meanings": ["each other"],
-        "origin": "ru+vek"
-    },
-    {
-        "form": "se",
-        "meanings": ["self/reflexive"],
-        "origin": "French 'se'"
-    },
-    {
-        "form": "niu",
-        "meanings": ["new"],
-        "origin": "English 'new'"
-    },
-    {
-        "form": "pre",
-        "meanings": ["have/own"],
-        "origin": "French 'prendre'"
-    },
-    {
-        "form": "pro",
-        "meanings": ["cause", "function/method"],
-        "origin": "Programming 'procedure', maybe from Latin 'pro'"
-    },
-    {
-        "form": "py",
-        "form_alternate": "pyn",
-        "meanings": ["own"],
-        "origin": "Computers 'PIN' personal identification number"
-    },
-    {
-        "form": "pi",
-        "meanings": ["of/from(one/some from a larger group)"],
-        "origin": "Unknown"
-    },
-    {
-        "form": "pla",
-        "meanings": ["flat/plane"],
-        "origin": "English 'plane'"
-    },
-    {
-        "form": "pra",
-        "meanings": ["art"],
-        "origin": "possibly from English 'practice'"
-    },
-    {
-        "form": "ple",
-        "meanings": ["trade/exchange"],
-        "origin": "possibly from French 'plein' as people feel fulfilled after trade, or English 'pledge' as a promise between traders"
-    },
-    {
-        "form": "ble",
-        "meanings": ["fail/miss"],
-        "origin": "English 'blemish'"
-    },
-    {
-        "form": "fro",
-        "meanings": ["each"],
-        "origin": "Programming 'for'"
-    },
-    {
-        "form": "bi",
-        "meanings": ["blue"],
-        "origin": "B from Computers 'RGB'"
-    },
-    {
-        "form": "jin",
-        "meanings": ["green"],
-        "origin": "G from Computers 'RGB'"
-    },
-    {
-        "form": "ar",
-        "meanings": ["red"],
-        "origin": "R from Computers 'RGB'"
-    },
-    {
-        "form": "kri",
-        "meanings": ["color"],
-        "origin": "English 'chrome', 'creative', 'crayon'"
-    },
-    {
-        "form": "to",
-        "meanings": ["tool", "use"],
-        "origin": "English 'tool'"
-    },
-    {
-        "form": "sa",
-        "meanings": ["also", "beyond", "extra"],
-        "origin": "unknown"
-    },
-    {
-        "form": "ze",
-        "meanings": ["control", "master"],
-        "origin": "possibly from Chinese '责', or possibly from 'Uza'"
-    },
-    {
-        "form": "sie",
-        "meanings": ["appreciation", "gratitude", "submissive"],
-        "origin": "Chinese '谢'"
-    },
-    {
-        "form": "ba",
-        "meanings": ["seperate", "it/that"],
-        "origin": "possibly from English 'ballast'"
-    },
-    {
-        "form": "de",
-        "meanings": ["made from", "remove/cease to exist"],
-        "origin": "French 'de'; English 'delete'"
-    },
-    {
-        "form": "ka",
-        "meanings": ["liking/attraction"],
-        "origin": "Finnish 'rakas'"
-    },
-    {
-        "form": "kla",
-        "form_alternate": "klats/klaq",
-        "meanings": ["obligation/duty"],
-        "origin": "possibly command call, very strong and heard over long distances"
-    },
-    {
-        "form": "klo",
-        "meanings": ["energy"],
-        "origin": "unknown"
-    },
-    {
-        "form": "kwa",
-        "meanings": ["accross/cross"],
-        "origin": "English 'cross' and Chinese '跨'"
-    },
-    {
-        "form": "na",
-        "meanings": ["state/position/external parameters"],
-        "origin": "unknown, maybe related to 'environment'"
-    },
-    {
-        "form": "ke",
-        "meanings": ["container/cover"],
-        "origin": "Chinese '壳'"
-    },
-    {
-        "form": "tru",
-        "meanings": ["truth(reality)"],
-        "category": "quality",
-        "origin": "English 'true'"
-    },
-    {
-        "form": "ru",
-        "meanings": ["roundness"],
-        "category": "quality",
-        "origin": "English 'round'"
-    },
-    {
-        "form": "bu",
-        "meanings": ["truth(yes or no)"],
-        "category": "quality",
-        "origin": "English 'boolean'"
-    },
-    {
-        "form": "pu",
-        "meanings": ["size"],
-        "category": "quality",
-        "origin": "English 'puny'"
-    },
-    {
-        "form": "plu",
-        "meanings": ["value"],
-        "category": "quality",
-        "origin": "Greek 'πλοῦτος'"
-    },
-    {
-        "form": "vu",
-        "meanings": ["volume/density"],
-        "category": "quality",
-        "origin": "English 'volume'"
-    },
-    {
-        "form": "pru",
-        "meanings": ["texture"],
-        "category": "quality",
-        "origin": "English 'prune'"
-    },
-    {
-        "form": "su",
-        "meanings": ["quality"],
-        "category": "quality",
-        "origin": "Chinese '素'"
-    },
-    {
-        "form": "lu",
-        "meanings": ["complexity"],
-        "category": "quality",
-        "origin": "French 'lu'"
-    },
-    {
-        "form": "ku",
-        "meanings": ["linearity/directivity"],
-        "category": "quality",
-        "origin": "vek+su"
-    },
-    {
-        "form": "kru",
-        "meanings": ["power"],
-        "category": "quality",
-        "origin": "Greek 'κράτος'"
-    },
-    {
-        "form": "xu",
-        "meanings": ["amount/quantity"],
-        "category": "quality",
-        "origin": "see 'x', 'xh'"
-    },
-    {
-        "form": "tu",
-        "meanings": ["similarity"],
-        "category": "quality",
-        "origin": "English 'too'"
-    },
-    {
-        "form": "mu",
-        "meanings": ["light"],
-        "category": "quality",
-        "origin": "Chinese '目'"
-    },
-    {
-        "form": "yu",
-        "meanings": ["smell"],
-        "category": "quality",
-        "origin": "'eww'"
-    },
-    {
-        "form": "cu",
-        "meanings": ["weight/gravity"],
-        "category": "quality",
-        "origin": "French 'chute'"
-    },
-    {
-        "form": "piu",
-        "meanings": ["heat"],
-        "category": "quality",
-        "origin": "Computers 'CPU'"
-    },
-    {
-        "form": "me",
-        "meanings": ["memory"],
-        "category": "quality",
-        "origin": "English 'memory'"
-    },
-    {
-        "form": "ran",
-        "meanings": ["chance/probability", "trial/test"],
-        "category": "quality",
-        "origin": "English 'random'"
-    },
-    {
-        "form": "fir",
-        "meanings": ["block"],
-        "category": "quality",
-        "origin": "Computers 'firewall'"
-    },
-    {
-        "form": "po",
-        "meanings": ["parent"],
-        "origin": "Chinese '婆'"
-    },
-    {
-        "form": "ci",
-        "meanings": ["child"],
-        "origin": "English 'child'"
-    },
-    {
-        "form": "za",
-        "form_alternate": "uza",
-        "meanings": ["god", "supernatural force"],
-        "origin": "English 'user'"
-    },
-    {
-        "form": "mon",
-        "meanings": ["economy"],
-        "origin": "English 'money'"
-    },
-    {
-        "form": "lri",
-        "meanings": ["secret/private"],
-        "origin": "English 'private'"
-    },
-    {
-        "form": "ce",
-        "meanings": ["next/following"],
-        "origin": "French 'prochaine'"
-    },
-    {
-        "form": "fle",
-        "meanings": ["play", "be entertained"],
-        "origin": "onomatopoeia"
-    },
-    {
-        "form": "fre",
-        "meanings": ["before", "prepare"],
-        "origin": "English prefix 'pre-'"
-    }
+  {
+    "form": "ar",
+    "meanings": [
+      "red"
+    ],
+    "origin": "R from Computers 'RGB'",
+    "id": 72
+  },
+  {
+    "form": "ba",
+    "meanings": [
+      "seperate",
+      "it/that"
+    ],
+    "origin": "possibly from English 'ballast'",
+    "id": 80
+  },
+  {
+    "form": "bi",
+    "meanings": [
+      "blue"
+    ],
+    "origin": "B from Computers 'RGB'",
+    "id": 70
+  },
+  {
+    "form": "bio",
+    "meanings": [
+      "biome/environment"
+    ],
+    "origin": "English 'biome'"
+  },
+  {
+    "form": "ble",
+    "meanings": [
+      "fail/miss"
+    ],
+    "origin": "English 'blemish'",
+    "id": 66
+  },
+  {
+    "form": "bo",
+    "meanings": [
+      "physical object(usually rounder). Also see 'ko'"
+    ],
+    "origin": "English 'ball' or 'bouba'",
+    "id": 12
+  },
+  {
+    "form": "bra",
+    "meanings": [
+      "arm/limb"
+    ],
+    "origin": "French 'bras'",
+    "id": 85
+  },
+  {
+    "form": "bu",
+    "meanings": [
+      "truth(yes or no)"
+    ],
+    "category": "quality",
+    "origin": "English 'boolean'",
+    "id": 94
+  },
+  {
+    "form": "ce",
+    "meanings": [
+      "next/following"
+    ],
+    "origin": "French 'prochaine'",
+    "id": 120
+  },
+  {
+    "form": "ci",
+    "meanings": [
+      "child"
+    ],
+    "origin": "English 'child'",
+    "id": 116
+  },
+  {
+    "form": "cu",
+    "meanings": [
+      "weight/gravity"
+    ],
+    "category": "quality",
+    "origin": "French 'chute'",
+    "id": 107
+  },
+  {
+    "form": "da",
+    "meanings": [
+      "reverse",
+      "other"
+    ],
+    "origin": "'da' meaning 'you' in English",
+    "id": 41
+  },
+  {
+    "form": "de",
+    "meanings": [
+      "made from"
+    ],
+    "origin": "French 'de'",
+    "id": 81
+  },
+  {
+    "form": "dek",
+    "meanings": [
+      "down/downwards"
+    ],
+    "origin": "English 'deck'(knocked to the ground)",
+    "id": 53
+  },
+  {
+    "form": "di",
+    "meanings": [
+      "solid"
+    ],
+    "origin": "Chinese '地'",
+    "id": 19
+  },
+  {
+    "form": "dia",
+    "form_alternate": "ida",
+    "meanings": [
+      "name/identifier"
+    ],
+    "origin": "English 'identity'",
+    "id": 112
+  },
+  {
+    "form": "die",
+    "meanings": [
+      "remove/cease to exist"
+    ],
+    "origin": "English 'delete'",
+    "id": 82
+  },
+  {
+    "form": "do",
+    "meanings": [
+      "help",
+      "give",
+      "address(a person)"
+    ],
+    "origin": "French 'donner'; 3. Chinese '对'",
+    "id": 8
+  },
+  {
+    "form": "ek",
+    "meanings": [
+      "stop",
+      "end"
+    ],
+    "origin": "English 'exit'",
+    "id": 114
+  },
+  {
+    "form": "fay",
+    "meanings": [
+      "make/produce/create"
+    ],
+    "origin": "French 'faire'",
+    "id": 30
+  },
+  {
+    "form": "fe",
+    "meanings": [
+      "feeling",
+      "challenge/game"
+    ],
+    "origin": "1. English 'feel'; 2. Retrofitted from Spanish 'feliz'",
+    "id": 31
+  },
+  {
+    "form": "fi",
+    "meanings": [
+      "liquid"
+    ],
+    "origin": "French 'fiol'",
+    "id": 18
+  },
+  {
+    "form": "fir",
+    "meanings": [
+      "block"
+    ],
+    "origin": "Computers 'firewall'",
+    "id": 113
+  },
+  {
+    "form": "fle",
+    "meanings": [
+      "play",
+      "be entertained"
+    ],
+    "origin": "onomatopoeia",
+    "id": 121
+  },
+  {
+    "form": "fo",
+    "meanings": [
+      "thing"
+    ],
+    "origin": "Programming 'foo'",
+    "id": 21
+  },
+  {
+    "form": "fre",
+    "meanings": [
+      "before",
+      "prepare"
+    ],
+    "origin": "English prefix 'pre-'",
+    "id": 122
+  },
+  {
+    "form": "fro",
+    "meanings": [
+      "each"
+    ],
+    "origin": "Programming 'for'",
+    "id": 67
+  },
+  {
+    "form": "ge",
+    "meanings": [
+      "process(altering object)"
+    ],
+    "origin": "Unknwon"
+  },
+  {
+    "form": "gi",
+    "meanings": [
+      "ride",
+      "be carried by"
+    ],
+    "origin": "English 'Giddy Up!'"
+  },
+  {
+    "form": "go",
+    "meanings": [
+      "reproduction/sex"
+    ],
+    "origin": "English 'gonad'",
+    "id": 14
+  },
+  {
+    "form": "gu",
+    "meanings": [
+      "taste"
+    ],
+    "origin": "French 'goûter'",
+    "id": 109
+  },
+  {
+    "form": "jan",
+    "form_alternate": "ja",
+    "meanings": [
+      "combine/with/together/mix"
+    ],
+    "origin": "English 'join' and Chinese '粘'",
+    "id": 42
+  },
+  {
+    "form": "je",
+    "meanings": [
+      "exit(physical)"
+    ],
+    "origin": "French 'jeter'",
+    "id": 44
+  },
+  {
+    "form": "ji",
+    "form_alternate": "jik",
+    "meanings": [
+      "exclusive"
+    ],
+    "origin": "j- +unknown",
+    "id": 46
+  },
+  {
+    "form": "jin",
+    "meanings": [
+      "green"
+    ],
+    "origin": "G from Computers 'RGB'",
+    "id": 71
+  },
+  {
+    "form": "jo",
+    "meanings": [
+      "group",
+      "or(inclusive)"
+    ],
+    "origin": "English 'join'",
+    "id": 43
+  },
+  {
+    "form": "ju",
+    "meanings": [
+      "alternative",
+      "other(not exclusive)"
+    ],
+    "origin": "j- (conjunction prefix)+French 'ou'",
+    "id": 45
+  },
+  {
+    "form": "ka",
+    "meanings": [
+      "liking/attraction"
+    ],
+    "origin": "Finnish 'rakas'",
+    "id": 83
+  },
+  {
+    "form": "kan",
+    "meanings": ["focus"],
+    "origin": "Chinese '看'"
+  },
+  {
+    "form": "ke",
+    "meanings": [
+      "container/cover"
+    ],
+    "origin": "Chinese '壳'",
+    "id": 91
+  },
+  {
+    "form": "ki",
+    "meanings": [
+      "to take in/sense",
+      "who/associator"
+    ],
+    "origin": "English 'key'(enter in); 2. French 'qui' or Programming 'key'(dictionaries)",
+    "id": 54
+  },
+  {
+    "form": "kla",
+    "form_alternate": "klats/klaq",
+    "meanings": [
+      "obligation/duty"
+    ],
+    "origin": "possibly command call, very strong and heard over long distances",
+    "id": 87
+  },
+  {
+    "form": "kle",
+    "meanings": [
+      "energy"
+    ],
+    "origin": "unknown",
+    "id": 88
+  },
+  {
+    "form": "klo",
+    "meanings": [
+      "excretion/output"
+    ],
+    "origin": "Likely an onomatopoeia, or English 'crap'",
+    "id": 22
+  },
+  {
+    "form": "ko",
+    "meanings": [
+      "thing(physical/tangible object)"
+    ],
+    "origin": "Unknown",
+    "id": 25
+  },
+  {
+    "form": "kri",
+    "meanings": [
+      "color"
+    ],
+    "origin": "English 'chrome', 'creative', 'crayon'",
+    "id": 73
+  },
+  {
+    "form": "kru",
+    "meanings": [
+      "power"
+    ],
+    "category": "quality",
+    "origin": "Greek 'κράτος'",
+    "id": 102
+  },
+  {
+    "form": "ku",
+    "meanings": [
+      "linearity/directivity"
+    ],
+    "category": "quality",
+    "origin": "vek+su",
+    "id": 101
+  },
+  {
+    "form": "kwa",
+    "meanings": [
+      "accross/cross"
+    ],
+    "origin": "English 'cross' and Chinese '跨'",
+    "id": 89
+  },
+  {
+    "form": "kwo",
+    "meanings": [
+      "start/beginning"
+    ],
+    "origin": "Old Baliskian 'ko'",
+    "id": 24
+  },
+  {
+    "form": "la",
+    "meanings": [
+      "person"
+    ],
+    "origin": "Unknown, possibly from French direct object complement 'la'",
+    "id": 13
+  },
+  {
+    "form": "lek",
+    "meanings": [
+      "far",
+      "away"
+    ],
+    "origin": "unknown+vek",
+    "id": 51
+  },
+  {
+    "form": "li",
+    "meanings": [
+      "break/apart...",
+      "break through/complete a challenge"
+    ],
+    "origin": "1. English 'lyse'; 2. Chinese '利', retrofitted from 'felis'",
+    "id": 48
+  },
+  {
+    "form": "lie",
+    "meanings": [
+      "connection/link/association"
+    ],
+    "origin": "Chinese '聯' or French 'lien'"
+  },
+  {
+    "form": "lo",
+    "meanings": [
+      "part of",
+      "small version/variant",
+      "log/record"
+    ],
+    "origin": "Unknown; 3. English 'log'",
+    "id": 34
+  },
+  {
+    "form": "loq",
+    "form_alternate": "lots",
+    "meanings": [
+      "allow",
+      "ability"
+    ],
+    "origin": "English 'allow' or 'allot'",
+    "id": 35
+  },
+  {
+    "form": "lri",
+    "meanings": [
+      "secret/private"
+    ],
+    "origin": "English 'private'",
+    "id": 119
+  },
+  {
+    "form": "lu",
+    "meanings": [
+      "complexity"
+    ],
+    "category": "quality",
+    "origin": "French 'lu'",
+    "id": 100
+  },
+  {
+    "form": "mak",
+    "form_alternate": "ma",
+    "meanings": [
+      "at most/up to",
+      "maximum"
+    ],
+    "origin": "English 'maximum'",
+    "id": 38
+  },
+  {
+    "form": "me",
+    "meanings": [
+      "memory"
+    ],
+    "origin": "English 'memory'",
+    "id": 110
+  },
+  {
+    "form": "mek",
+    "meanings": [
+      "back",
+      "close"
+    ],
+    "origin": "mi+vek",
+    "id": 50
+  },
+  {
+    "form": "men",
+    "meanings": [
+      "door/opening"
+    ],
+    "origin": "Chinese '门'",
+    "id": 86
+  },
+  {
+    "form": "mi",
+    "meanings": [
+      "less/a little"
+    ],
+    "category": "quantity",
+    "origin": "English 'mini' or 'micro' or Chinese '米'",
+    "id": 4
+  },
+  {
+    "form": "mie",
+    "meanings": [
+      "half"
+    ],
+    "category": "quantity",
+    "origin": "mi+es",
+    "id": 5
+  },
+  {
+    "form": "min",
+    "meanings": [
+      "minimum",
+      "at least"
+    ],
+    "origin": "English 'minimum'",
+    "id": 37
+  },
+  {
+    "form": "mo",
+    "meanings": [
+      "death"
+    ],
+    "origin": "French 'mort'",
+    "id": 9
+  },
+  {
+    "form": "mon",
+    "meanings": [
+      "economy"
+    ],
+    "origin": "English 'money'",
+    "id": 118
+  },
+  {
+    "form": "mu",
+    "meanings": [
+      "light"
+    ],
+    "category": "quality",
+    "origin": "Chinese '目'",
+    "id": 105
+  },
+  {
+    "form": "mü",
+    "meanings": [
+      "love(emotional)"
+    ],
+    "origin": "Chinese '母'",
+    "id": 84
+  },
+  {
+    "form": "na",
+    "meanings": [
+      "state/position/external parameters"
+    ],
+    "origin": "unknown, maybe related to 'environment'",
+    "id": 90
+  },
+  {
+    "form": "ni",
+    "meanings": [
+      "not/opposite"
+    ],
+    "category": "quantity",
+    "origin": "English 'not' or 'no' or French 'ne'",
+    "id": 6
+  },
+  {
+    "form": "niu",
+    "meanings": [
+      "new"
+    ],
+    "origin": "English 'new'",
+    "id": 58
+  },
+  {
+    "form": "nü",
+    "meanings": [
+      "not/none/0"
+    ],
+    "category": "quantity",
+    "origin": "English 'null'",
+    "id": 7
+  },
+  {
+    "form": "pa",
+    "meanings": [
+      "food"
+    ],
+    "origin": "French 'pain'",
+    "id": 55
+  },
+  {
+    "form": "pek",
+    "meanings": [
+      "up/upwards"
+    ],
+    "origin": "English 'peck', birds in the sky",
+    "id": 52
+  },
+  {
+    "form": "pi",
+    "meanings": [
+      "of/from(one/some from a larger group)"
+    ],
+    "origin": "Unknown",
+    "id": 62
+  },
+  {
+    "form": "pio",
+    "meanings": [
+      "circulatory system/life force"
+    ],
+    "origin": "Unknown",
+    "id": 27
+  },
+  {
+    "form": "piu",
+    "meanings": [
+      "heat"
+    ],
+    "category": "quality",
+    "origin": "Computers 'CPU'",
+    "id": 108
+  },
+  {
+    "form": "pla",
+    "meanings": [
+      "flat/plane"
+    ],
+    "origin": "English 'plane'",
+    "id": 63
+  },
+  {
+    "form": "ple",
+    "meanings": [
+      "trade/exchange"
+    ],
+    "origin": "possibly from French 'plein' as people feel fulfilled after trade, or English 'pledge' as a promise between traders",
+    "id": 65
+  },
+  {
+    "form": "plu",
+    "meanings": [
+      "value"
+    ],
+    "category": "quality",
+    "origin": "Greek 'πλοῦτος'",
+    "id": 96
+  },
+  {
+    "form": "po",
+    "meanings": [
+      "parent"
+    ],
+    "origin": "Chinese '婆'",
+    "id": 115
+  },
+  {
+    "form": "pra",
+    "meanings": [
+      "art"
+    ],
+    "origin": "possibly from English 'practice'",
+    "id": 64
+  },
+  {
+    "form": "pre",
+    "meanings": [
+      "have/own"
+    ],
+    "origin": "1. French 'prendre'",
+    "id": 59
+  },
+  {
+    "form": "pro",
+    "meanings": [
+      "cause",
+      "function/method"
+    ],
+    "origin": "Programming 'procedure', maybe from Latin 'pro'",
+    "id": 60
+  },
+  {
+    "form": "pru",
+    "meanings": [
+      "texture"
+    ],
+    "category": "quality",
+    "origin": "English 'prune'",
+    "id": 98
+  },
+  {
+    "form": "pu",
+    "meanings": [
+      "size"
+    ],
+    "category": "quality",
+    "origin": "English 'puny'",
+    "id": 95
+  },
+  {
+    "form": "py",
+    "form_alternate": "pyn",
+    "meanings": [
+      "own"
+    ],
+    "origin": "Computers 'PIN' personal identification number",
+    "id": 61
+  },
+  {
+    "form": "ran",
+    "meanings": [
+      "chance/probability",
+      "trial/test"
+    ],
+    "origin": "English 'random'",
+    "id": 111
+  },
+  {
+    "form": "re",
+    "meanings": [
+      "each other/between"
+    ],
+    "origin": "ru+vek",
+    "id": 56
+  },
+  {
+    "form": "rek",
+    "meanings": [
+      "storage",
+      "container"
+    ],
+    "origin": "ru+ke"
+  },
+  {
+    "form": "ri",
+    "meanings": [
+      "comedy/fun"
+    ],
+    "origin": "French 'rire'",
+    "id": 36
+  },
+  {
+    "form": "ro",
+    "meanings": [
+      "center"
+    ],
+    "origin": "English 'round'",
+    "id": 23
+  },
+  {
+    "form": "ru",
+    "meanings": [
+      "roundness"
+    ],
+    "category": "quality",
+    "origin": "English 'round'",
+    "id": 93
+  },
+  {
+    "form": "sa",
+    "meanings": [
+      "also",
+      "beyond",
+      "extra"
+    ],
+    "origin": "unknown",
+    "id": 75
+  },
+  {
+    "form": "se",
+    "meanings": [
+      "self/reflexive"
+    ],
+    "origin": "French 'se'",
+    "id": 57
+  },
+  {
+    "form": "si",
+    "meanings": [
+      "place/location"
+    ],
+    "category": "concept",
+    "origin": "English 'site'",
+    "id": 1
+  },
+  {
+    "form": "sie",
+    "meanings": [
+      "appreciation",
+      "gratitude",
+      "submissive"
+    ],
+    "origin": "Chinese '谢'",
+    "id": 79
+  },
+  {
+    "form": "smo",
+    "form_alternate": "mo",
+    "meanings": [
+      "action"
+    ],
+    "origin": "English 'move'",
+    "id": 10
+  },
+  {
+    "form": "so",
+    "meanings": [
+      "body"
+    ],
+    "origin": "English 'soul'",
+    "id": 26
+  },
+  {
+    "form": "spe",
+    "meanings": [
+      "take"
+    ],
+    "origin": "English 'spend'?",
+    "id": 40
+  },
+  {
+    "form": "sto",
+    "meanings": [
+      "waste"
+    ],
+    "origin": "English 'stool' or -sdo verb ending"
+  },
+  {
+    "form": "su",
+    "meanings": [
+      "quality"
+    ],
+    "category": "quality",
+    "origin": "Chinese '素'",
+    "id": 99
+  },
+  {
+    "form": "svo",
+    "meanings": [
+      "life"
+    ],
+    "origin": "so+vo",
+    "id": 47
+  },
+  {
+    "form": "ta",
+    "meanings": [
+      "companion/friend"
+    ],
+    "origin": "English 'tandem'",
+    "id": 11
+  },
+  {
+    "form": "tan",
+    "meanings": [
+      "structure(internal)"
+    ],
+    "origin": "Chinese carbon '碳'",
+    "id": 15
+  },
+  {
+    "form": "te",
+    "meanings": [
+      "move"
+    ],
+    "origin": "Unknown, possibly from English 'trek'",
+    "id": 16
+  },
+  {
+    "form": "ten",
+    "meanings": [
+      "touch/contact"
+    ],
+    "origin": "French 'tenir'",
+    "id": 39
+  },
+  {
+    "form": "ti",
+    "meanings": [
+      "time"
+    ],
+    "category": "concept",
+    "origin": "English 'time'",
+    "id": 0
+  },
+  {
+    "form": "tie",
+    "meanings": [
+      "temporary"
+    ],
+    "origin": "ti+e"
+  },
+  {
+    "form": "to",
+    "meanings": [
+      "tool",
+      "use"
+    ],
+    "origin": "English 'tool'",
+    "id": 74
+  },
+  {
+    "form": "tru",
+    "meanings": [
+      "truth(reality)"
+    ],
+    "category": "quality",
+    "origin": "English 'true'",
+    "id": 92
+  },
+  {
+    "form": "tu",
+    "meanings": [
+      "similarity"
+    ],
+    "category": "quality",
+    "origin": "English 'too'",
+    "id": 104
+  },
+  {
+    "form": "va",
+    "meanings": [
+      "each of"
+    ],
+    "origin": "Programming 'var'",
+    "id": 68
+  },
+  {
+    "form": "vek",
+    "meanings": [
+      "forward",
+      "direction"
+    ],
+    "origin": "English 'vector'",
+    "id": 49
+  },
+  {
+    "form": "vi",
+    "meanings": [
+      "more/very"
+    ],
+    "category": "quantity",
+    "origin": "English 'very'",
+    "id": 2
+  },
+  {
+    "form": "vie",
+    "meanings": [
+      "double/two"
+    ],
+    "category": "quantity",
+    "origin": "vi+es",
+    "id": 3
+  },
+  {
+    "form": "vle",
+    "meanings": [
+      "comfort"
+    ],
+    "origin": "onomatopoeia",
+    "id": 69
+  },
+  {
+    "form": "vo",
+    "meanings": [
+      "consciousness",
+      "sound/speech"
+    ],
+    "origin": "1. Unknown; 2. French 'voix', see 'von'",
+    "id": 28
+  },
+  {
+    "form": "von",
+    "meanings": [
+      "sound"
+    ],
+    "origin": "French 'voix', alternate form of 'vo'",
+    "id": 29
+  },
+  {
+    "form": "vu",
+    "meanings": [
+      "volume/density"
+    ],
+    "category": "quality",
+    "origin": "English 'volume'",
+    "id": 97
+  },
+  {
+    "form": "wa",
+    "meanings": [
+      "want/desire"
+    ],
+    "origin": "English 'want'",
+    "id": 32
+  },
+  {
+    "form": "we",
+    "meanings": [
+      "sadness"
+    ],
+    "origin": "English 'weep'",
+    "id": 77
+  },
+  {
+    "form": "wi",
+    "meanings": [
+      "gas/air"
+    ],
+    "origin": "Likely an onomatopoeia, possibly from English 'wisp'",
+    "id": 20
+  },
+  {
+    "form": "wo",
+    "meanings": [
+      "danger"
+    ],
+    "origin": "English interjection 'woah'",
+    "id": 78
+  },
+  {
+    "form": "ya",
+    "meanings": [
+      "need/requirement"
+    ],
+    "origin": "Chinese '要'",
+    "id": 17
+  },
+  {
+    "form": "yu",
+    "meanings": [
+      "smell"
+    ],
+    "category": "quality",
+    "origin": "'eww'",
+    "id": 106
+  },
+  {
+    "form": "za",
+    "form_alternate": "uza",
+    "meanings": [
+      "god",
+      "supernatural force"
+    ],
+    "origin": "English 'user'",
+    "id": 117
+  },
+  {
+    "form": "ze",
+    "meanings": [
+      "control",
+      "master"
+    ],
+    "origin": "possibly from Chinese '责', or possibly from 'Uza'",
+    "id": 76
+  },
+  {
+    "form": "zu",
+    "meanings": [
+      "political",
+      "sovereign"
+    ],
+    "origin": "English 'zone'"
+  },
+  {
+    "form": "zo",
+    "meanings": [
+      "go",
+      "progress"
+    ],
+    "origin": "Chinese '走'",
+    "id": 33
+  },
+  {
+    "form": "ẋi",
+    "meanings": [
+      "often"
+    ],
+    "origin": "Adjective ending of ẋo"
+  },
+  {
+    "form": "ẋo",
+    "meanings": [
+      "number(concept)"
+    ],
+    "origin": "Chinese '數'"
+  },
+  {
+    "form": "ẋu",
+    "meanings": [
+      "amount/quantity"
+    ],
+    "category": "quality",
+    "origin": "see 'x', 'xh'",
+    "id": 103
+  }
 ]
