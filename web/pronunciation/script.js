@@ -4,13 +4,16 @@ String.prototype.replaceAt = function(index, replacement) {
 function toIPA(word = "", dialect){
     let map = {
         a: ["a", 'v'],
+        ay: ["eɪ", 'v'],
         b: ["b", 'pv'],
         c: ["tʃ", 'a'],
         ch: ["x", 'f'], //*
         d: ["d", 'pv'],
         e: ["ɛ", 'v'],
+        ey: ["eɪ", 'v'],
         f: ["f", 'f'],
         g: ["g", 'pv'],
+        h: ["", ''],
         ħ: ["ʁ", 'fv'],
         i: ["i", 'v'],
         j: ["ʒ", 'fv'],
@@ -50,10 +53,18 @@ function toIPA(word = "", dialect){
     //* - only in loanwords
     //** - only in loanwords, sound is represented a different way
     
+    //remove ending duplicate vowel(comments)
+    if(word.length>=2&&word.charAt(word.length-1)==word.charAt(word.length-2)){
+        word = word.substring(0, word.length-1);
+    }
+
     //Strip ending fricative
     let frick = "";
     let tmp = word.charAt(word.length-1);
-    if(tmp!="n"&&map[tmp][1].includes("f")||map[tmp][1]=="n"){
+    if(word.includes("xh")){
+        frick = "xh";
+        word = word.substring(0, word.length-2);
+    }else if(tmp!="n"&&map[tmp][1].includes("f")||map[tmp][1]=="n"){
         frick = tmp;
         word = word.substring(0, word.length-1);
     }
@@ -73,10 +84,6 @@ function toIPA(word = "", dialect){
         }
     }
 
-    if(word.length>=2&&word.charAt(word.length-1)==word.charAt(word.length-2)){
-        word = word.substring(0, word.length-1);
-    }
-
     //Split word into syllables
     let cSlb = "";
     let wordf = [];
@@ -85,7 +92,6 @@ function toIPA(word = "", dialect){
     const possibleVowelModifiers = ['y', 'r', 'l'];
     for(let i = 0; i < word.length; i++){
         let d = word.charAt(i);
-        console.log(d);
         if(map[d][1]=="v"){
             hasVowel = true;
         }
@@ -135,9 +141,13 @@ function toIPA(word = "", dialect){
                 wordf.push(cSlb);
                 cSlb = "";
                 hasVowel = false;
+                vowelDone = false;
+                if(map[d][1]=='v'){
+                    hasVowel = true;
+                }
             }
             if(hasVowel){
-                vowelDone = "";
+                vowelDone = true;
             }
         }
         cSlb+=d;
@@ -146,14 +156,49 @@ function toIPA(word = "", dialect){
         }else if(coda==3){
             cSlb+="k";
         }
-        if(i==word.length-1){
-            wordf.push(cSlb);
-        }
     }
+    wordf.push(cSlb);
     if(frick!=""){
         wordf.push(" "+frick);
     }
     //TODO: actually convert syllables, add in frick, maybe shift s of verb forward
+    console.log(wordf);
+    for(let i = 0; i < wordf.length; i++){
+        let final = "";
+        let tword = wordf[i];
+        for(let j = 0; j < tword.length; j++){
+            let d = tword.charAt(j);
+            let n = j<tword.length-1?tword.charAt(j+1):"'";
+            console.log(d);
+            if(!(d in map)){
+                final+=d;
+                continue;
+            }
+            let choice = map[d][0];
+            if(map[d][1]!='v'&&map[n][1]=='h'){
+                if(d+'h' in map){
+                    choice = map[d+'h'][0];
+                }
+            }else if(map[d][1]=='v'&&map[n][1]=='y'){
+                if(d+'y' in map){
+                    choice = map[d+'y'][0];
+                    j++;
+                }
+            }else if(d=='r'||d=='l'&&j==tword.length-1){
+                choice = map[d+'c'][0];
+            }else if(d=='e'&&n=='r'){
+                choice = map['er'][0];
+                j++;
+            }
+            final+=choice;
+        }
+        if(final.startsWith(" ")){
+            final = final.substring(1);
+            wordf[i-1]+=final;
+            wordf.pop();
+        }
+        wordf[i] = final;
+    }
     return wordf;
 }
 function isAgglutinatedPronoun(word){
