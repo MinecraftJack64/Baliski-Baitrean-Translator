@@ -2,6 +2,20 @@ String.prototype.replaceAt = function(index, replacement) {
     return this.substring(0, index) + replacement + this.substring(index + replacement.length);
 }
 function toIPA(word = "", dialect){
+    let symbolMap = {
+        '!': "ni",
+        '@': "do",
+        '#': "ca",
+        '&': "jan",
+        '*': "aze",
+        '(': "th",
+        ')': "ch",
+        //
+        ':': "ma",
+        '|': "jor",
+        '.': "a",
+        '?': "kwey"
+    }
     let map = {
         a: ["a", 'v'],
         ay: ["eɪ", 'v'],
@@ -53,6 +67,11 @@ function toIPA(word = "", dialect){
     }
     //* - only in loanwords
     //** - only in loanwords, sound is represented a different way
+
+    //replace shothands
+    for(let k in symbolMap){
+        word = word.replaceAll(k, symbolMap[k]);
+    }
     
     //remove ending duplicate vowel(comments)
     if(word.length>=2&&word.charAt(word.length-1)==word.charAt(word.length-2)){
@@ -233,6 +252,9 @@ function getPronunciation(phrase, dialect){
     let wordsIn = phrase.split(" ");
     let wordsOut = [];
     for(let word of wordsIn){
+        if(word.endsWith(',')||word.endsWith(';')){
+            word = word.substring(0, word.length-1);
+        }
         wordsOut.push(combineSyllables(toIPA(word, dialect)));
     }
     return wordsOut.join(" ");
