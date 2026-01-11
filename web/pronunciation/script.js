@@ -68,6 +68,8 @@ function toIPA(word = "", dialect){
     //* - only in loanwords
     //** - only in loanwords, sound is represented a different way
 
+    var fricativeShift = true;
+
     //replace shothands
     for(let k in symbolMap){
         word = word.replaceAll(k, symbolMap[k]);
@@ -181,10 +183,16 @@ function toIPA(word = "", dialect){
     if(frick!=""){
         wordf.push(" "+frick);
     }
-    //TODO: actually convert syllables, add in frick, maybe shift s of verb forward
+    //TODO: maybe shift s of verb forward
     console.log(wordf);
     for(let i = 0; i < wordf.length; i++){
         let final = "";
+        if(fricativeShift){
+            if(i<wordf.length-1&&map[wordf[i].charAt(wordf[i].length)][1]=='v'&&map[wordf[i+1].charAt(0)][1].includes('f')){
+                wordf[i] += wordf[i+1].charAt(0);
+                wordf[i+1] = wordf[i+1].substring(1);
+            }
+        }
         let tword = wordf[i];
         for(let j = 0; j < tword.length; j++){
             let d = tword.charAt(j);
@@ -238,10 +246,11 @@ function combineSyllables(word){
     if(isAgglutinatedPronoun(word)){
         //
     }
+    let caseCoda = word.length>2&&word[word.length-1].length==1;
     for(let x = 1; x <= word.length; x++){
-        word[word.length-x] = (emphasized&&x%2==0?",":".")+word[word.length-x];
+        word[word.length-x] = (emphasized&&x>=2&&x%2==(caseCoda?1:0)?",":".")+word[word.length-x];
     }
-    word[word.length-2] = "'"+word[word.length-2].substring(1);
+    word[word.length-2-caseCoda] = "'"+word[word.length-2-caseCoda].substring(1);
     let f = word.join("");
     if(f.startsWith('.')){
         f = f.substring(1);
