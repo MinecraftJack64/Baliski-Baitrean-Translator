@@ -188,16 +188,18 @@ function toIPA(word = "", dialect){
     for(let i = 0; i < wordf.length; i++){
         let final = "";
         if(fricativeShift){
-            if(i<wordf.length-1&&map[wordf[i].charAt(wordf[i].length)][1]=='v'&&map[wordf[i+1].charAt(0)][1].includes('f')){
-                wordf[i] += wordf[i+1].charAt(0);
-                wordf[i+1] = wordf[i+1].substring(1);
-            }
+            try{
+                if(i<wordf.length-1&&map[wordf[i].charAt(wordf[i].length-1)][1]=='v'&&map[wordf[i+1].charAt(0)][1].includes('f')){
+                    wordf[i] += wordf[i+1].charAt(0);
+                    wordf[i+1] = wordf[i+1].substring(1);
+                }
+                //console.log(wordf[i]+" "+wordf[i+1]);
+            }catch(e){}
         }
         let tword = wordf[i];
         for(let j = 0; j < tword.length; j++){
             let d = tword.charAt(j);
             let n = j<tword.length-1?tword.charAt(j+1):"'";
-            console.log(d);
             if(!(d in map)){
                 final+=d;
                 continue;
