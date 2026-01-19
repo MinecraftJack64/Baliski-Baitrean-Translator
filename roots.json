@@ -329,6 +329,13 @@
     "id": 67
   },
   {
+    "form": "fu",
+    "meanings": [
+      "level in a hierarchy"
+    ],
+    "origin": "Unknown"
+  },
+  {
     "form": "ge",
     "meanings": [
       "process(altering object)"
@@ -981,12 +988,26 @@
     "id": 26
   },
   {
+    "form": "spa",
+    "meanings": [
+      "manmade structure"
+    ],
+    "origin": "Unknwon, possibly from a mixture of English 'skyscraper'"
+  },
+  {
     "form": "spe",
     "meanings": [
       "take"
     ],
     "origin": "English 'spend'?",
     "id": 40
+  },
+  {
+    "form": "spo",
+    "meanings": [
+      "augmentative"
+    ],
+    "origin": "Related to 'spa'"
   },
   {
     "form": "sto",
