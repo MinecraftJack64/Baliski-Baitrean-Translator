@@ -5,6 +5,7 @@
       "red"
     ],
     "origin": "R from Computers 'RGB'",
+    "dependency": "kri",
     "id": 72
   },
   {
@@ -17,11 +18,19 @@
     "id": 80
   },
   {
+    "form": "be",
+    "meanings": [
+      "moral(good)"
+    ],
+    "origin": "possibly from English 'best' or French 'belle'"
+  },
+  {
     "form": "bi",
     "meanings": [
       "blue"
     ],
     "origin": "B from Computers 'RGB'",
+    "dependency": "kri",
     "id": 70
   },
   {
@@ -48,12 +57,26 @@
     "id": 12
   },
   {
+    "form": "bri",
+    "meanings": [
+      "grow"
+    ],
+    "origin": "Split from bi"
+  },
+  {
     "form": "bra",
     "meanings": [
       "arm/limb"
     ],
     "origin": "French 'bras'",
     "id": 85
+  },
+  {
+    "form": "bwa",
+    "meanings": [
+      "left"
+    ],
+    "origin": "Unknown"
   },
   {
     "form": "bu",
@@ -67,10 +90,17 @@
   {
     "form": "ce",
     "meanings": [
-      "next/following"
+      "after"
     ],
-    "origin": "French 'prochaine'",
+    "origin": "see 'cen'",
     "id": 120
+  },
+  {
+    "form": "cen",
+    "meanings": [
+      "next one"
+    ],
+    "origin": "French 'prochaine'"
   },
   {
     "form": "ci",
@@ -79,6 +109,13 @@
     ],
     "origin": "English 'child'",
     "id": 116
+  },
+  {
+    "form": "co",
+    "meanings": [
+      "diminutive"
+    ],
+    "origin": "ci"
   },
   {
     "form": "cu",
@@ -140,6 +177,13 @@
     "id": 82
   },
   {
+    "form": "dir",
+    "meanings": [
+      "right"
+    ],
+    "origin": "English 'direction'"
+  },
+  {
     "form": "do",
     "meanings": [
       "help",
@@ -148,6 +192,14 @@
     ],
     "origin": "French 'donner'; 3. Chinese '对'",
     "id": 8
+  },
+  {
+    "form": "du",
+    "meanings": [
+      "degree(generic)"
+    ],
+    "category": "quantity",
+    "origin": "Chinese '度'"
   },
   {
     "form": "ek",
@@ -159,12 +211,27 @@
     "id": 114
   },
   {
+    "form": "fa",
+    "form_alternate": "fan",
+    "meanings": [
+      "quote/speech"
+    ],
+    "origin": "Unknown"
+  },
+  {
     "form": "fay",
     "meanings": [
       "make/produce/create"
     ],
     "origin": "French 'faire'",
     "id": 30
+  },
+  {
+    "form": "fla",
+    "meanings": [
+      "side"
+    ],
+    "origin": "English 'flank'"
   },
   {
     "form": "fe",
@@ -174,6 +241,13 @@
     ],
     "origin": "1. English 'feel'; 2. Retrofitted from Spanish 'feliz'",
     "id": 31
+  },
+  {
+    "form": "fen",
+    "meanings": [
+      "previous one"
+    ],
+    "origin": "Unknown"
   },
   {
     "form": "fi",
@@ -274,8 +348,7 @@
     "id": 44
   },
   {
-    "form": "ji",
-    "form_alternate": "jik",
+    "form": "jik",
     "meanings": [
       "exclusive"
     ],
@@ -288,6 +361,7 @@
       "green"
     ],
     "origin": "G from Computers 'RGB'",
+    "dependency": "kri",
     "id": 71
   },
   {
@@ -429,6 +503,13 @@
     ],
     "origin": "unknown+vek",
     "id": 51
+  },
+  {
+    "form": "len",
+    "meanings": [
+      "remain/persist"
+    ],
+    "origin": "lek+na"
   },
   {
     "form": "li",
@@ -739,6 +820,20 @@
     "id": 61
   },
   {
+    "form": "qa",
+    "meanings": [
+      "please"
+    ],
+    "origin": "Chinese '请'"
+  },
+  {
+    "form": "qu",
+    "meanings": [
+      "family"
+    ],
+    "origin": "Unknown"
+  },
+  {
     "form": "ran",
     "meanings": [
       "chance/probability",
@@ -897,6 +992,13 @@
     ],
     "origin": "Unknown, possibly from English 'trek'",
     "id": 16
+  },
+  {
+    "form": "tek",
+    "meanings": [
+      "chaos"
+    ],
+    "origin": "Unknown"
   },
   {
     "form": "ten",
