@@ -5,6 +5,7 @@
       "red"
     ],
     "origin": "R from Computers 'RGB'",
+    "home": "a",
     "id": 72
   },
   {
@@ -14,14 +15,17 @@
       "it/that"
     ],
     "origin": "possibly from English 'ballast'",
+    "home": "p",
     "id": 80
   },
   {
     "form": "bi",
     "meanings": [
-      "blue"
+      "blue",
+      "grow/improve"
     ],
-    "origin": "B from Computers 'RGB'",
+    "origin": "1. B from Computers 'RGB'. 2. Unknown",
+    "home": "av",
     "id": 70
   },
   {
@@ -29,7 +33,8 @@
     "meanings": [
       "biome/environment"
     ],
-    "origin": "English 'biome'"
+    "origin": "English 'biome'",
+    "home": "n"
   },
   {
     "form": "ble",
@@ -37,14 +42,16 @@
       "fail/miss"
     ],
     "origin": "English 'blemish'",
+    "home": "d",
     "id": 66
   },
   {
     "form": "bo",
     "meanings": [
-      "physical object(usually rounder). Also see 'ko'"
+      "physical object(usually rounder/smaller). Also see 'ko'"
     ],
     "origin": "English 'ball' or 'bouba'",
+    "home": "n",
     "id": 12
   },
   {
@@ -53,6 +60,7 @@
       "arm/limb"
     ],
     "origin": "French 'bras'",
+    "home": "n",
     "id": 85
   },
   {
@@ -62,6 +70,7 @@
     ],
     "category": "quality",
     "origin": "English 'boolean'",
+    "home": "a",
     "id": 94
   },
   {
@@ -70,6 +79,7 @@
       "next/following"
     ],
     "origin": "French 'prochaine'",
+    "home": "p",
     "id": 120
   },
   {
@@ -78,15 +88,18 @@
       "child"
     ],
     "origin": "English 'child'",
+    "home": "n",
     "id": 116
   },
   {
     "form": "cu",
     "meanings": [
-      "weight/gravity"
+      "fall",
+      "weight"
     ],
     "category": "quality",
     "origin": "French 'chute'",
+    "home": "va",
     "id": 107
   },
   {
@@ -95,7 +108,8 @@
       "reverse",
       "other"
     ],
-    "origin": "'da' meaning 'you' in English",
+    "origin": "'da' meaning 'you'",
+    "home": "p",
     "id": 41
   },
   {
@@ -104,6 +118,7 @@
       "made from"
     ],
     "origin": "French 'de'",
+    "home": "p",
     "id": 81
   },
   {
@@ -112,14 +127,17 @@
       "down/downwards"
     ],
     "origin": "English 'deck'(knocked to the ground)",
+    "home": "p",
     "id": 53
   },
   {
     "form": "di",
     "meanings": [
-      "solid"
+      "solid",
+      "earth"
     ],
     "origin": "Chinese '地'",
+    "home": "an",
     "id": 19
   },
   {
@@ -129,6 +147,7 @@
       "name/identifier"
     ],
     "origin": "English 'identity'",
+    "home": "d",
     "id": 112
   },
   {
@@ -137,6 +156,7 @@
       "remove/cease to exist"
     ],
     "origin": "English 'delete'",
+    "home": "v",
     "id": 82
   },
   {
@@ -147,6 +167,7 @@
       "address(a person)"
     ],
     "origin": "French 'donner'; 3. Chinese '对'",
+    "home": "nvp",
     "id": 8
   },
   {
@@ -156,6 +177,7 @@
       "end"
     ],
     "origin": "English 'exit'",
+    "home": "v",
     "id": 114
   },
   {
@@ -182,6 +204,13 @@
     ],
     "origin": "French 'fiol'",
     "id": 18
+  },
+  {
+    "form": "fin",
+    "meanings": [
+      "through water/swim"
+    ],
+    "origin": "'fi+en'"
   },
   {
     "form": "fir",
@@ -337,6 +366,13 @@
     ],
     "origin": "English 'key'(enter in); 2. French 'qui' or Programming 'key'(dictionaries)",
     "id": 54
+  },
+  {
+    "form": "kio",
+    "meanings": [
+      "small undomesticated animal"
+    ],
+    "origin": "'tekio'"
   },
   {
     "form": "kla",
@@ -824,6 +860,13 @@
     ],
     "origin": "Chinese '谢'",
     "id": 79
+  },
+  {
+    "form": "sla",
+    "meanings": [
+      "fly/through air"
+    ],
+    "origin": "'s'la' in 's'lakis'"
   },
   {
     "form": "smo",
