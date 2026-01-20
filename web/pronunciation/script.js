@@ -189,11 +189,10 @@ function toIPA(word = "", dialect){
         let final = "";
         if(fricativeShift){
             try{
-                if(i<wordf.length-1&&map[wordf[i].charAt(wordf[i].length-1)][1]=='v'&&map[wordf[i+1].charAt(0)][1].includes('f')){
+                if(i<wordf.length-1&&map[wordf[i].charAt(wordf[i].length-1)][1]=='v'&&map[wordf[i+1].charAt(0)][1].includes('f')&&wordf[i+1].length>=2&&map[wordf[i+1].charAt(1)][1]!='v'){
                     wordf[i] += wordf[i+1].charAt(0);
                     wordf[i+1] = wordf[i+1].substring(1);
                 }
-                //console.log(wordf[i]+" "+wordf[i+1]);
             }catch(e){}
         }
         let tword = wordf[i];
