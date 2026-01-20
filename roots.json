@@ -1,5 +1,42 @@
 [
   {
+    "form": "a",
+    "meanings": [
+      "have(as a part(inalienable))"
+    ],
+    "origin": "French 'a'"
+  },
+  {
+    "form": "e",
+    "meanings": [
+      "is/exist",
+      "to be"
+    ],
+    "origin": "Indo-European copula"
+  },
+  {
+    "form": "i",
+    "meanings": [
+      "at"
+    ],
+    "origin": "French 'ici'"
+  },
+  {
+    "form": "o",
+    "meanings": [
+      "with(using/alongside/related to)",
+      "in agreement"
+    ],
+    "origin": "English 'yes'"
+  },
+  {
+    "form": "u",
+    "meanings": [
+      "all-encompassing/ubiquitous"
+    ],
+    "origin": "English 'ubiquitous'"
+  },
+  {
     "form": "ar",
     "meanings": [
       "red"
@@ -8,6 +45,14 @@
     "dependency": "kri",
     "home": "a",
     "id": 72
+  },
+  {
+    "form": "en",
+    "form_alternate": "ne",
+    "meanings": [
+      "into/become"
+    ],
+    "origin": "English prefix 'en-'"
   },
   {
     "form": "ba",
@@ -329,11 +374,19 @@
     "id": 67
   },
   {
-    "form": "fu",
+    "form": "flu",
     "meanings": [
       "level in a hierarchy"
     ],
-    "origin": "Unknown"
+    "origin": "Unknown",
+    "category": "quality"
+  },
+  {
+    "form": "fu",
+    "meanings": [
+      "crazy/silly"
+    ],
+    "origin": "French 'fou'"
   },
   {
     "form": "ge",
@@ -365,6 +418,13 @@
     ],
     "origin": "French 'goûter'",
     "id": 109
+  },
+  {
+    "form": "har",
+    "meanings": [
+      "plant"
+    ],
+    "origin": "French 'arbre'"
   },
   {
     "form": "jan",
@@ -521,6 +581,21 @@
     ],
     "origin": "English 'cross' and Chinese '跨'",
     "id": 89
+  },
+  {
+    "form": "kwe",
+    "form_alternate": "kwey",
+    "meanings": [
+      "question/request for response"
+    ],
+    "origin": "French 'quoi'"
+  },
+  {
+    "form": "kwi",
+    "meanings": [
+      "shape"
+    ],
+    "origin": "Unknown"
   },
   {
     "form": "kwo",
@@ -711,6 +786,13 @@
     "id": 90
   },
   {
+    "form": "nek",
+    "meanings": [
+      "bad"
+    ],
+    "origin": "Greek 'νεκρός'"
+  },
+  {
     "form": "ni",
     "meanings": [
       "not/opposite"
@@ -729,6 +811,7 @@
   },
   {
     "form": "nü",
+    "form_alternate": "nu",
     "meanings": [
       "not/none/0"
     ],
@@ -836,6 +919,13 @@
     "id": 60
   },
   {
+    "form": "pri",
+    "meanings": [
+      "protrusion/bump"
+    ],
+    "origin": "see 'pru'"
+  },
+  {
     "form": "pru",
     "meanings": [
       "texture"
@@ -877,6 +967,13 @@
     "origin": "Unknown"
   },
   {
+    "form": "ra",
+    "meanings": [
+      "around"
+    ],
+    "origin": "English 'around'"
+  },
+  {
     "form": "ran",
     "meanings": [
       "chance/probability",
@@ -899,7 +996,7 @@
       "storage",
       "container"
     ],
-    "origin": "ru+ke"
+    "origin": "ru+ke, possibly from English 'rectangle'"
   },
   {
     "form": "ri",
@@ -1024,6 +1121,13 @@
     "category": "quality",
     "origin": "Chinese '素'",
     "id": 99
+  },
+  {
+    "form": "sva",
+    "meanings": [
+      "inhabit"
+    ],
+    "origin": "svo+-a"
   },
   {
     "form": "svo",
@@ -1251,6 +1355,13 @@
     ],
     "origin": "possibly from Chinese '责', or possibly from 'Uza'",
     "id": 76
+  },
+  {
+    "form": "zek",
+    "meanings": [
+      "command"
+    ],
+    "origin": "Split from 'ze'"
   },
   {
     "form": "zu",
