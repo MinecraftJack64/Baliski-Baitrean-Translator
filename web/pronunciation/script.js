@@ -1,3 +1,4 @@
+let lastSyllables = [];
 String.prototype.replaceAt = function(index, replacement) {
     return this.substring(0, index) + replacement + this.substring(index + replacement.length);
 }
@@ -183,8 +184,7 @@ function toIPA(word = "", dialect){
     if(frick!=""){
         wordf.push(" "+frick);
     }
-    //TODO: maybe shift s of verb forward
-    console.log(wordf);
+    lastSyllables.push([...wordf]);
     for(let i = 0; i < wordf.length; i++){
         let final = "";
         if(fricativeShift){
@@ -273,6 +273,7 @@ function showPronunciation(phrase, dialect=""){
     document.getElementById("dialect").innerHTML = dialect;
     let ipaElement = document.getElementById("ipa");
     ipaElement.innerHTML = "/"+getPronunciation(phrase, dialect)+"/";
+    document.getElementById("roots").innerHTML = lastSyllables.map((a)=>a.join("+")).join(" ");
 }
 function updatePronunciation(){
     showPronunciation(document.getElementById("phraseInput").value, document.querySelector('input[name="dialect"]:checked').value);

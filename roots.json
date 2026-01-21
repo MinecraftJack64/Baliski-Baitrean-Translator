@@ -91,6 +91,13 @@
     "home": "n"
   },
   {
+    "form": "bla",
+    "meanings": [
+      "base/supporting structure"
+    ],
+    "origin": "Unknown, possibly from 'pla'"
+  },
+  {
     "form": "ble",
     "meanings": [
       "fail/miss"
@@ -283,7 +290,7 @@
     "meanings": [
       "quote/speech"
     ],
-    "origin": "Unknown"
+    "origin": "Chinese '发'"
   },
   {
     "form": "fay",
