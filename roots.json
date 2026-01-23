@@ -107,6 +107,13 @@
     "id": 66
   },
   {
+    "form": "bli",
+    "meanings": [
+      "problem"
+    ],
+    "origin": "from 'ble'"
+  },
+  {
     "form": "bo",
     "meanings": [
       "physical object(usually rounder/smaller). Also see 'ko'"
@@ -546,6 +553,13 @@
     ],
     "origin": "Likely an onomatopoeia, or English 'crap'",
     "id": 22
+  },
+  {
+    "form": "kli",
+    "meanings": [
+      "type/class"
+    ],
+    "origin": "English 'clique'"
   },
   {
     "form": "ko",
