@@ -105,7 +105,14 @@ function toIPA(word = "", dialect){
                 }
             }
         }
+        //replace internal x
+        if(word.length>1){
+            let l = word.at(-1);
+            word = word.substring(0, word.length-1).replaceAll("x", "ẋ")+l;
+        }
     }
+    //TODO some dialects geminate t at end of work
+    //TODO rules of z becoming africate
 
     //Split word into syllables
     let cSlb = "";
@@ -273,6 +280,7 @@ function showPronunciation(phrase, dialect=""){
     document.getElementById("dialect").innerHTML = dialect;
     let ipaElement = document.getElementById("ipa");
     ipaElement.innerHTML = "/"+getPronunciation(phrase, dialect)+"/";
+    document.getElementById("roots").innerHTML = "";
     document.getElementById("roots").innerHTML = lastSyllables.map((a)=>a.join("+")).join(" ");
 }
 function updatePronunciation(){
