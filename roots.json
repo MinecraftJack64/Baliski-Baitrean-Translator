@@ -371,6 +371,13 @@
     "id": 21
   },
   {
+    "form": "fra",
+    "meanings": [
+      "about/topic"
+    ],
+    "origin": "Unknown"
+  },
+  {
     "form": "fre",
     "meanings": [
       "before",
@@ -401,6 +408,13 @@
       "crazy/silly"
     ],
     "origin": "French 'fou'"
+  },
+  {
+    "form": "ga",
+    "meanings": [
+      "subject/topic"
+    ],
+    "origin": "Old Baliskian 'gar'"
   },
   {
     "form": "ge",
@@ -856,6 +870,13 @@
     "id": 55
   },
   {
+    "form": "pe",
+    "meanings": [
+      "accept/receive"
+    ],
+    "origin": "French 'prendre'"
+  },
+  {
     "form": "pek",
     "meanings": [
       "up/upwards"
@@ -1124,7 +1145,7 @@
     "meanings": [
       "take"
     ],
-    "origin": "English 'spend'?",
+    "origin": "'se'+'pe'",
     "id": 40
   },
   {
@@ -1246,6 +1267,14 @@
     "category": "quality",
     "origin": "English 'too'",
     "id": 104
+  },
+  {
+    "form": "tun",
+    "meanings": [
+      "stability"
+    ],
+    "category": "quality",
+    "origin": "from 'tan'"
   },
   {
     "form": "va",
@@ -1376,6 +1405,13 @@
     "id": 117
   },
   {
+    "form": "zan",
+    "meanings": [
+      "rule"
+    ],
+    "origin": "'zana'"
+  },
+  {
     "form": "ze",
     "meanings": [
       "control",
@@ -1409,11 +1445,32 @@
     "id": 33
   },
   {
+    "form": "ẋa",
+    "meanings": [
+      "location posessive(na)"
+    ],
+    "origin": "Unknown"
+  },
+  {
+    "form": "ẋta",
+    "meanings": [
+      "location possessive(tan)"
+    ],
+    "origin": "Unknown, related to ẋa"
+  },
+  {
     "form": "ẋi",
     "meanings": [
       "often"
     ],
     "origin": "Adjective ending of ẋo"
+  },
+  {
+    "form": "ẋin",
+    "meanings": [
+      "do"
+    ],
+    "origin": "Related to 'sis'"
   },
   {
     "form": "ẋo",
