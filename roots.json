@@ -649,12 +649,19 @@
     "id": 13
   },
   {
+    "form": "le",
+    "meanings": [
+      "strip/fiber/long thin object"
+    ],
+    "origin": "English 'length' referring to strings"
+  },
+  {
     "form": "lek",
     "meanings": [
       "far",
       "away"
     ],
-    "origin": "unknown+vek",
+    "origin": "le+vek",
     "id": 51
   },
   {
