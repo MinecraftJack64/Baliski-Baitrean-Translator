@@ -2,7 +2,8 @@
   {
     "form": "a",
     "meanings": [
-      "have(as a part(inalienable))"
+      "have(as a part(inalienable))",
+      "around"
     ],
     "origin": "French 'a'"
   },
@@ -10,21 +11,23 @@
     "form": "e",
     "meanings": [
       "is/exist",
-      "to be"
+      "to be",
+      "about"
     ],
     "origin": "Indo-European copula"
   },
   {
     "form": "i",
     "meanings": [
-      "at"
+      "at",
+      "past"
     ],
     "origin": "French 'ici'"
   },
   {
     "form": "o",
     "meanings": [
-      "with(using/alongside/related to)",
+      "with(using/alongside/related to), by",
       "in agreement"
     ],
     "origin": "English 'yes'"
@@ -421,7 +424,7 @@
     "meanings": [
       "process(altering object)"
     ],
-    "origin": "Unknwon"
+    "origin": "French 'gérer'"
   },
   {
     "form": "gi",
@@ -446,6 +449,14 @@
     ],
     "origin": "French 'goûter'",
     "id": 109
+  },
+  {
+    "form": "ha",
+    "form_alternate": "hia",
+    "meanings": [
+      "desire"
+    ],
+    "origin": "Chinese '啊' and '呀'"
   },
   {
     "form": "har",
@@ -582,6 +593,13 @@
     ],
     "origin": "Unknown",
     "id": 25
+  },
+  {
+    "form": "kre",
+    "meanings": [
+      "work"
+    ],
+    "origin": "'kru'+'kle'"
   },
   {
     "form": "kri",
@@ -785,6 +803,13 @@
     ],
     "origin": "English 'minimum'",
     "id": 37
+  },
+  {
+    "form": "mla",
+    "meanings": [
+      "colorful/rainbow"
+    ],
+    "origin": "Unknown"
   },
   {
     "form": "mle",
@@ -1124,6 +1149,13 @@
     "origin": "'s'la' in 's'lakis'"
   },
   {
+    "form": "sli",
+    "meanings": [
+      "be able to"
+    ],
+    "origin": "Unknown"
+  },
+  {
     "form": "smo",
     "form_alternate": "mo",
     "meanings": [
@@ -1428,19 +1460,18 @@
     "id": 76
   },
   {
+    "form": "zen",
+    "meanings": [
+      "permission"
+    ],
+    "origin": "Unknown"
+  },
+  {
     "form": "zek",
     "meanings": [
       "command"
     ],
     "origin": "Split from 'ze'"
-  },
-  {
-    "form": "zu",
-    "meanings": [
-      "political",
-      "sovereign"
-    ],
-    "origin": "English 'zone'"
   },
   {
     "form": "zo",
@@ -1450,6 +1481,14 @@
     ],
     "origin": "Chinese '走'",
     "id": 33
+  },
+  {
+    "form": "zu",
+    "meanings": [
+      "political",
+      "sovereign"
+    ],
+    "origin": "English 'zone'"
   },
   {
     "form": "ẋa",
