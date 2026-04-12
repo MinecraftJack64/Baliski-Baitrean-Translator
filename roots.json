@@ -68,6 +68,13 @@
     "id": 80
   },
   {
+    "form": "ban",
+    "meanings": [
+      "left"
+    ],
+    "origin": "Unknown"
+  },
+  {
     "form": "be",
     "meanings": [
       "moral(good)"
@@ -148,13 +155,6 @@
     "origin": "French 'bras'",
     "home": "n",
     "id": 85
-  },
-  {
-    "form": "bwa",
-    "meanings": [
-      "left"
-    ],
-    "origin": "Unknown"
   },
   {
     "form": "bu",
@@ -1049,6 +1049,13 @@
     "origin": "Chinese '请'"
   },
   {
+    "form": "qi",
+    "meanings": [
+      "porcelain"
+    ],
+    "origin": "Chinese '瓷'"
+  },
+  {
     "form": "qu",
     "meanings": [
       "family"
@@ -1330,6 +1337,13 @@
     ],
     "origin": "Programming 'var'",
     "id": 68
+  },
+  {
+    "form": "ve",
+    "meanings": [
+      "glass"
+    ],
+    "origin": "French 'verre'"
   },
   {
     "form": "vek",
