@@ -474,6 +474,13 @@
     "origin": "French 'arbre'"
   },
   {
+    "form": "hon",
+    "meanings": [
+      "canine"
+    ],
+    "origin": "onomatopoeia"
+  },
+  {
     "form": "jan",
     "form_alternate": "ja",
     "meanings": [
@@ -532,6 +539,13 @@
     ],
     "origin": "Finnish 'rakas'",
     "id": 83
+  },
+  {
+    "form": "kar",
+    "meanings": [
+      "?"
+    ],
+    "origin": "Unknown"
   },
   {
     "form": "kan",
@@ -1105,9 +1119,10 @@
   {
     "form": "ro",
     "meanings": [
-      "center"
+      "center",
+      "serve"
     ],
-    "origin": "English 'round'",
+    "origin": "1. English 'round', 2. Czech 'robota'",
     "id": 23
   },
   {
@@ -1128,6 +1143,13 @@
     ],
     "origin": "unknown",
     "id": 75
+  },
+  {
+    "form": "sar",
+    "meanings": [
+      "sugar"
+    ],
+    "origin": "'har'+Ancient Greek 'σάκχαρ'"
   },
   {
     "form": "se",
