@@ -8,6 +8,12 @@
     "origin": "French 'a'"
   },
   {
+    "form": "ak",
+    "meanings": [
+      "sentence ender(rare)"
+    ]
+  },
+  {
     "form": "e",
     "meanings": [
       "is/exist",
@@ -165,6 +171,13 @@
     "origin": "English 'boolean'",
     "home": "a",
     "id": 94
+  },
+  {
+    "form": "bun",
+    "meanings": [
+      "toggle bu"
+    ],
+    "origin": "bu+ni"
   },
   {
     "form": "ce",
@@ -474,11 +487,25 @@
     "origin": "French 'arbre'"
   },
   {
+    "form": "hi",
+    "meanings": [
+      "sentence starter generic"
+    ],
+    "origin": "Spanish 'y'"
+  },
+  {
     "form": "hon",
     "meanings": [
       "canine"
     ],
     "origin": "onomatopoeia"
+  },
+  {
+    "form": "hoy",
+    "meanings": [
+      "call?"
+    ],
+    "origin": "Multilingual 'hey'"
   },
   {
     "form": "jan",
@@ -543,7 +570,7 @@
   {
     "form": "kar",
     "meanings": [
-      "?"
+      "plastic/polymer"
     ],
     "origin": "Unknown"
   },
@@ -551,6 +578,13 @@
     "form": "kan",
     "meanings": ["focus"],
     "origin": "Chinese '看'"
+  },
+  {
+    "form": "kay",
+    "meanings": [
+      "toggle between states"
+    ],
+    "origin": "Chinese '开'"
   },
   {
     "form": "ke",
