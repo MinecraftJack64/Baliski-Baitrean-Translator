@@ -1,0 +1,48 @@
+onset = "s"|"k"|"f";
+vowel = "a"|"e"|"i"|"o"|"u"|"y";
+coda = "y"|"r"|"k"|"n"|"l";
+(*add others*)
+syllable = onset, vowel, coda;
+
+aovonlo = "a"|"ma"|"pyn"; (*possessive*)
+deovonlo = "de";
+javonlo = "jan"|"ju"|"jik"|"nukan";
+nadovonlo = "minnaa"|"kaa"|"wey";
+
+inavonlo = "-", {syllable}; (*preposition*)
+onavonlo = ; (*adjective*)
+moovonlo = ; (*verb*)
+fonhovonlo = ; (*noun*)
+
+fan = jafan | mofan | nafan; (*statement/sentence*)
+jafan = fan, javonlo, fan; (*conjunction phrase*)
+mofan = fondovonjo, moovonlojo; (*verbal phrase*)
+nafan = fondovonjo, mojivonjo; (*stative phrase*)
+fondovonjo = {nadovonlo}, {fonhovonlojo}; (*parameter phrase*)
+moovonlojo = xovonlo, moovonlo, {monavonlojo}; (*verb phrase*)
+
+monavonlojo = moinavonlojo | moonavonlojo | ofondovonjo; (*adjective/preposition phrase for verb*)
+moinavonlojo = inavonlojo; (*preposition phrase for verb*)
+moonavonlojo = onavonlojo; (*adjective phrase for verb*)
+
+ofondovonjo = kenvonlo | qanvonlo | fanvonlo; (*object supplier*)
+kenvonlo = "kel", fan;
+qanvonlo = "na", qao;
+fanvonlo = "fa", fan;
+
+fonhovonlojo = fonlyevonjo | fonhovonlojolo; (*noun phrase*)
+fonlyevonjo = fonhovonlojo, fonholyevonlo, fonhovonlojolo; (*noun relational noun phrase*)
+fonhovonlojolo = xovonlo, fonhovonlo, {fonnavonlojo}, {ofonvonjo}; (*noun phrase(single)*)
+
+fonnavonlojo = fonhinavonlojo | fonhonavonlojo; (*adjective/preposition phrase for noun*)
+fonhinavonlojo = inavonlojo;
+fonhonavonlojo = onavonlojo;
+
+ofonvonjo = gafan | fonfan | fanhofan;
+gafan = "kel", fan;
+fonfan = "ki", fan;
+fanhofan = "del", fan;
+
+qao = {fonnavonlojo};
+fonholyevonlo = aovonlo | deovonlo;
+bufan = ("bu" | "if"), fan; (*TODO*)
