@@ -8,14 +8,16 @@ aovonlo = "a"|"ma"|"pyn"; (*possessive*)
 deovonlo = "de";
 javonlo = "jan"|"ju"|"jik"|"nukan";
 nadovonlo = "minnaa"|"kaa"|"wey";
+eknavonlo = "saa"|myavonlo;
+myavonlo = "tim";
 
 inavonlo = "-", {syllable}; (*preposition*)
-onavonlo = ; (*adjective*)
-moovonlo = ; (*verb*)
-fonhovonlo = ; (*noun*)
+onavonlo = {syllable}, "i"; (*adjective*)
+moovonlo = {}; (*verb*)
+fonhovonlo = {syllable}, "o"; (*noun*)
 
 fan = jafan | mofan | nafan; (*statement/sentence*)
-jafan = fan, javonlo, fan; (*conjunction phrase*)
+jafan = fan, {javonlo, fan}; (*conjunction phrase*)
 mofan = fondovonjo, moovonlojo; (*verbal phrase*)
 nafan = fondovonjo, mojivonjo; (*stative phrase*)
 fondovonjo = {nadovonlo}, {fonhovonlojo}; (*parameter phrase*)
@@ -31,7 +33,7 @@ qanvonlo = "na", qao;
 fanvonlo = "fa", fan;
 
 fonhovonlojo = fonlyevonjo | fonhovonlojolo; (*noun phrase*)
-fonlyevonjo = fonhovonlojo, fonholyevonlo, fonhovonlojolo; (*noun relational noun phrase*)
+fonlyevonjo = fonhovonlojo, (fonholyevonlo, fonhovonlojolo); (*noun relational noun phrase*)
 fonhovonlojolo = xovonlo, fonhovonlo, {fonnavonlojo}, {ofonvonjo}; (*noun phrase(single)*)
 
 fonnavonlojo = fonhinavonlojo | fonhonavonlojo; (*adjective/preposition phrase for noun*)
