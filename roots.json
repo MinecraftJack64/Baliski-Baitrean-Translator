@@ -769,6 +769,14 @@
     "origin": "Chinese '聯' or French 'lien'"
   },
   {
+    "form": "lio",
+    "meanings": [
+      "contribution(from a part to whole)",
+      "make up"
+    ],
+    "origin": "lo+yo(unknown)"
+  },
+  {
     "form": "lo",
     "meanings": [
       "part of",
@@ -1105,7 +1113,8 @@
     "form": "py",
     "form_alternate": "pyn",
     "meanings": [
-      "own"
+      "own",
+      "of(ordinal of a group)"
     ],
     "origin": "Computers 'PIN' personal identification number",
     "id": 61
@@ -1224,6 +1233,14 @@
     "id": 1
   },
   {
+    "form": "sin",
+    "meanings": [
+      "while(at same time or together)",
+      "synchonize"
+    ],
+    "origin": "English 'syn-'"
+  },
+  {
     "form": "sie",
     "meanings": [
       "appreciation",
@@ -1280,11 +1297,25 @@
     "id": 40
   },
   {
+    "form": "spi",
+    "meanings": [
+      "made from"
+    ],
+    "origin": "'so'+'pi'"
+  },
+  {
     "form": "spo",
     "meanings": [
       "augmentative"
     ],
     "origin": "Related to 'spa'"
+  },
+  {
+    "form": "ste",
+    "meanings": [
+      "material"
+    ],
+    "origin": "Middle French 'bastiment'"
   },
   {
     "form": "sto",
@@ -1619,10 +1650,11 @@
   },
   {
     "form": "ẋin",
+    "form_alternate": "si",
     "meanings": [
       "do"
     ],
-    "origin": "Related to 'sis'"
+    "origin": "Related to 'sis', from programming 'sys'"
   },
   {
     "form": "ẋo",
