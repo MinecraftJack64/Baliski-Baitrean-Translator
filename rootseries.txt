@@ -6,6 +6,7 @@ h - nature
 j - conjunction/group
 l - freedom/ability
 n - negative
+m - circle of life
 ny/r - submissive/round
 t - change
 x - number

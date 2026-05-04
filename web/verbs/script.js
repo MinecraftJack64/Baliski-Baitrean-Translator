@@ -1,3 +1,5 @@
+const paramsString = window.location.search;
+const searchParams = new URLSearchParams(paramsString);
 function getPartOfSpeech(word = ""){
     let pos;
     let data = {};
@@ -123,5 +125,8 @@ function updateVerbConjugations(){
 }
 for(var h of ['r', 'g-nb', 'g-m', 'g-f']){
     document.getElementById(h).addEventListener("change", updateVerbConjugations);
+}
+if(searchParams.get("verb")){
+    document.getElementById("r").value = searchParams.get("verb");
 }
 updateVerbConjugations();
