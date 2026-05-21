@@ -973,6 +973,13 @@
     "id": 55
   },
   {
+    "form": "par",
+    "meanings": [
+      "farm/cultivate"
+    ],
+    "origin": "pa+har"
+  },
+  {
     "form": "pe",
     "meanings": [
       "accept/receive"
@@ -1108,6 +1115,14 @@
     "category": "quality",
     "origin": "English 'puny'",
     "id": 95
+  },
+  {
+    "form": "pü",
+    "meanings": [
+      "fermented",
+      "rotted"
+    ],
+    "origin": "pa+hü"
   },
   {
     "form": "py",
