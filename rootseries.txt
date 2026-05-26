@@ -5,6 +5,9 @@ g - system
 h - nature
 j - conjunction/group
 l - freedom/ability
+p(b) - benefit/good
+f - matter
+b(p)->v - grow
 n - negative
 m - circle of life
 ny/r - submissive/round
@@ -13,7 +16,7 @@ x - number
 z - control/god
 th - location/time
 
-a - ?
+a - at/of relation
 e - ?
 i - ?
 o - noun

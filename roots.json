@@ -529,6 +529,13 @@
     "origin": "Multilingual 'hey'"
   },
   {
+    "form": "hü",
+    "meanings": [
+      "foreign/alien"
+    ],
+    "origin": "h(nature)+ü(supernatural?)"
+  },
+  {
     "form": "jan",
     "form_alternate": "ja",
     "meanings": [
@@ -987,11 +994,46 @@
     "id": 55
   },
   {
+    "form": "pan",
+    "meanings": [
+      "zone/region"
+    ],
+    "origin": "?'pan'"
+  },
+  {
+    "form": "par",
+    "meanings": [
+      "farm/cultivate"
+    ],
+    "origin": "pa+har"
+  },
+  {
+    "form": "pay",
+    "meanings": [
+      "row"
+    ],
+    "origin": "Chinese '排'"
+  },
+  {
+    "form": "pay",
+    "meanings": [
+      "harvest"
+    ],
+    "origin": "'pa'+'i'"
+  },
+  {
     "form": "pe",
     "meanings": [
       "accept/receive"
     ],
     "origin": "French 'prendre'"
+  },
+  {
+    "form": "bey",
+    "meanings": [
+      "benefit from"
+    ],
+    "origin": "'be'+'i'"
   },
   {
     "form": "pek",
@@ -1122,6 +1164,14 @@
     "category": "quality",
     "origin": "English 'puny'",
     "id": 95
+  },
+  {
+    "form": "pü",
+    "meanings": [
+      "fermented",
+      "rotted"
+    ],
+    "origin": "pa+hü"
   },
   {
     "form": "py",
@@ -1430,6 +1480,13 @@
       "temporary"
     ],
     "origin": "ti+e"
+  },
+  {
+    "form": "tiu",
+    "meanings": [
+      "duration"
+    ],
+    "origin": "ti+u"
   },
   {
     "form": "to",
