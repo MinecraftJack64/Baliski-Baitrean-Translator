@@ -298,6 +298,13 @@
     "id": 8
   },
   {
+    "form": "dro",
+    "meanings": [
+      "reaction"
+    ],
+    "origin": "'do'+'ro'"
+  },
+  {
     "form": "du",
     "meanings": [
       "degree(generic)"
@@ -439,6 +446,13 @@
       "subject/topic"
     ],
     "origin": "Old Baliskian 'gar'"
+  },
+  {
+    "form": "gan",
+    "meanings": [
+      "force/exertion"
+    ],
+    "origin": "Chinese '杆'"
   },
   {
     "form": "ge",
@@ -1282,6 +1296,13 @@
     "id": 26
   },
   {
+    "form": "son",
+    "meanings": [
+      "sound"
+    ],
+    "origin": "French 'sonne' or English 'sound'"
+  },
+  {
     "form": "spa",
     "meanings": [
       "manmade structure"
@@ -1507,10 +1528,17 @@
   {
     "form": "von",
     "meanings": [
-      "sound"
+      "voice"
     ],
     "origin": "French 'voix', alternate form of 'vo'",
     "id": 29
+  },
+  {
+    "form": "vro",
+    "meanings": [
+      "oscillate"
+    ],
+    "origin": "'von'+'ro'"
   },
   {
     "form": "vu",
@@ -1552,6 +1580,13 @@
     ],
     "origin": "English interjection 'woah'",
     "id": 78
+  },
+  {
+    "form": "wu",
+    "meanings": [
+      "mass"
+    ],
+    "origin": "Chinese '物'"
   },
   {
     "form": "ya",
@@ -1623,7 +1658,8 @@
     "form": "zu",
     "meanings": [
       "political",
-      "sovereign"
+      "sovereign",
+      "area"
     ],
     "origin": "English 'zone'"
   },
