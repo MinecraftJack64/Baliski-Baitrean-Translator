@@ -11,8 +11,12 @@ b(p)->v - grow
 n - negative
 m - circle of life
 ny/r - submissive/round
+s - action
 t - change
+hw - intangible
+w(u-) - future(young)
 x - number
+y(i-) - past(young)
 z - control/god
 th - location/time
 

@@ -233,6 +233,13 @@
     "id": 41
   },
   {
+    "form": "dar",
+    "meanings": [
+      "offer"
+    ],
+    "origin": "Spanish 'dar'"
+  },
+  {
     "form": "de",
     "meanings": [
       "made from"
@@ -992,6 +999,13 @@
     ],
     "origin": "French 'pain'",
     "id": 55
+  },
+  {
+    "form": "pak",
+    "meanings": [
+      "cook"
+    ],
+    "origin": "pa+pyo"
   },
   {
     "form": "pan",
