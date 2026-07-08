@@ -2,10 +2,17 @@
   {
     "form": "a",
     "meanings": [
-      "have(as a part(inalienable))",
-      "around"
+      "have(as a part(inalienable))"
     ],
     "origin": "French 'a'"
+  },
+  {
+    "form": "an",
+    "form_alternate": "a",
+    "meanings": [
+      "nearby"
+    ],
+    "origin": "-a"
   },
   {
     "form": "ak",
@@ -44,6 +51,14 @@
       "all-encompassing/ubiquitous"
     ],
     "origin": "English 'ubiquitous'"
+  },
+  {
+    "form": "ü",
+    "meanings": [
+      "strange",
+      "supernatural"
+    ],
+    "origin": "onomatopoeia"
   },
   {
     "form": "ar",
@@ -231,6 +246,13 @@
     "origin": "'da' meaning 'you'",
     "home": "p",
     "id": 41
+  },
+  {
+    "form": "day",
+    "meanings": [
+      "carry/bring"
+    ],
+    "origin": "Chinese '帶'"
   },
   {
     "form": "de",
@@ -448,6 +470,13 @@
     "origin": "French 'gérer'"
   },
   {
+    "form": "gen",
+    "meanings": [
+      "constrain"
+    ],
+    "origin": "?"
+  },
+  {
     "form": "gi",
     "meanings": [
       "ride",
@@ -499,6 +528,13 @@
       "salt"
     ],
     "origin": "onomatopoeia"
+  },
+  {
+    "form": "ho",
+    "meanings": [
+      "(imperative)"
+    ],
+    "origin": "Unknown"
   },
   {
     "form": "hon",
@@ -767,6 +803,21 @@
     ],
     "origin": "1. English 'lyse'; 2. Chinese '利', retrofitted from 'felis'",
     "id": 48
+  },
+  {
+    "form": "lik",
+    "meanings": [
+      "through"
+    ],
+    "origin": "'li'+'ek'"
+  },
+  {
+    "form": "lin",
+    "meanings": [
+      "dragon",
+      "reptile"
+    ],
+    "origin": "Chinese '龙'"
   },
   {
     "form": "lie",
@@ -1391,6 +1442,13 @@
     "origin": "svo+-a"
   },
   {
+    "form": "sve",
+    "meanings": [
+      "function(work as intended)"
+    ],
+    "origin": "'sy'+'vek'"
+  },
+  {
     "form": "svi",
     "meanings": [
       "purpose"
@@ -1509,6 +1567,13 @@
     ],
     "origin": "Programming 'var'",
     "id": 68
+  },
+  {
+    "form": "vak",
+    "meanings": [
+      "correct(as intended)"
+    ],
+    "origin": "'vek' or 'va'+'be'"
   },
   {
     "form": "ve",
