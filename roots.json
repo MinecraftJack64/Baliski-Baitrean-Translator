@@ -255,6 +255,13 @@
     "origin": "Chinese '帶'"
   },
   {
+    "form": "dar",
+    "meanings": [
+      "offer"
+    ],
+    "origin": "Spanish 'dar'"
+  },
+  {
     "form": "de",
     "meanings": [
       "made from"
@@ -318,6 +325,13 @@
     "origin": "French 'donner'; 3. Chinese '对'",
     "home": "nvp",
     "id": 8
+  },
+  {
+    "form": "dro",
+    "meanings": [
+      "reaction"
+    ],
+    "origin": "'do'+'ro'"
   },
   {
     "form": "du",
@@ -461,6 +475,13 @@
       "subject/topic"
     ],
     "origin": "Old Baliskian 'gar'"
+  },
+  {
+    "form": "gan",
+    "meanings": [
+      "force/exertion"
+    ],
+    "origin": "Chinese '杆'"
   },
   {
     "form": "ge",
@@ -620,9 +641,9 @@
   {
     "form": "kar",
     "meanings": [
-      "plastic/polymer"
+      "direction(cardinal)"
     ],
-    "origin": "Unknown"
+    "origin": "English 'cardinal'"
   },
   {
     "form": "kan",
@@ -1031,6 +1052,13 @@
     "id": 55
   },
   {
+    "form": "pak",
+    "meanings": [
+      "cook"
+    ],
+    "origin": "pa+pyo"
+  },
+  {
     "form": "pan",
     "meanings": [
       "zone/region"
@@ -1383,6 +1411,13 @@
     "id": 26
   },
   {
+    "form": "son",
+    "meanings": [
+      "sound"
+    ],
+    "origin": "French 'sonne' or English 'sound'"
+  },
+  {
     "form": "spa",
     "meanings": [
       "manmade structure"
@@ -1480,6 +1515,13 @@
     "id": 15
   },
   {
+    "form": "tar",
+    "meanings": [
+      "plastic/polymer"
+    ],
+    "origin": "English 'tar'"
+  },
+  {
     "form": "te",
     "meanings": [
       "move"
@@ -1533,6 +1575,13 @@
     ],
     "origin": "English 'tool'",
     "id": 74
+  },
+  {
+    "form": "ton",
+    "meanings": [
+      "metal/copper"
+    ],
+    "origin": "Chinese '铜'"
   },
   {
     "form": "tru",
@@ -1629,10 +1678,17 @@
   {
     "form": "von",
     "meanings": [
-      "sound"
+      "voice"
     ],
     "origin": "French 'voix', alternate form of 'vo'",
     "id": 29
+  },
+  {
+    "form": "vro",
+    "meanings": [
+      "oscillate"
+    ],
+    "origin": "'von'+'ro'"
   },
   {
     "form": "vu",
@@ -1674,6 +1730,13 @@
     ],
     "origin": "English interjection 'woah'",
     "id": 78
+  },
+  {
+    "form": "wu",
+    "meanings": [
+      "mass"
+    ],
+    "origin": "Chinese '物'"
   },
   {
     "form": "ya",
@@ -1745,7 +1808,8 @@
     "form": "zu",
     "meanings": [
       "political",
-      "sovereign"
+      "sovereign",
+      "area"
     ],
     "origin": "English 'zone'"
   },
