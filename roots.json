@@ -424,7 +424,7 @@
         "id": 47
     },
     {
-        "form": "fle",
+        "form": "fle**",
         "meanings": [
             "play",
             "be entertained"
@@ -460,14 +460,13 @@
     {
         "form": "fre",
         "meanings": [
-            "before",
-            "prepare"
+            "play",
+            "be entertained"
         ],
-        "origin": "English prefix 'pre-'",
-        "id": 52
+        "origin": "onomatopoeia"
     },
     {
-        "form": "fro",
+        "form": "fro**",
         "meanings": [
             "each"
         ],
@@ -996,6 +995,13 @@
         "id": 114
     },
     {
+        "form": "mik",
+        "meanings": [
+            "smallest(indivisible)"
+        ],
+        "origin": "English 'micro'"
+    },
+    {
         "form": "min",
         "meanings": [
             "minimum",
@@ -1071,6 +1077,13 @@
         "id": 123
     },
     {
+        "form": "ne",
+        "meanings": [
+            "enemy"
+        ],
+        "origin": "English 'nemesis'"
+    },
+    {
         "form": "nek",
         "meanings": [
             "bad"
@@ -1104,6 +1117,14 @@
         "category": "quantity",
         "origin": "English 'null'",
         "id": 127
+    },
+    {
+        "form": "nun",
+        "meanings": [
+            "nothing/empty",
+            "space"
+        ],
+        "origin": "'nu'+'na'"
     },
     {
         "form": "o",
@@ -1656,6 +1677,13 @@
         "id": 193
     },
     {
+        "form": "tik",
+        "meanings": [
+            "time(discrete)"
+        ],
+        "origin": "'tiko'"
+    },
+    {
         "form": "to",
         "meanings": [
             "tool",
@@ -1722,6 +1750,13 @@
         ],
         "origin": "English 'ubiquitous'",
         "id": 201
+    },
+    {
+        "form": "un",
+        "meanings": [
+            "all of"
+        ],
+        "origin": "'u'+'un'"
     },
     {
         "form": "va",
