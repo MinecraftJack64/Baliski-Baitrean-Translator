@@ -14,6 +14,12 @@ function showRoot(root){
         title.innerHTML = root.form;
         title.style.fontWeight = "bold";
         titleSpan.appendChild(title);
+
+        //table mod
+        let rootCell = document.getElementById("root-"+root.form);
+        if(rootCell){
+            rootCell.style.fontWeight = "700";
+        }
     }
     if(root.form_alternate){
         titleSpan.innerHTML+="<span> or </span>";

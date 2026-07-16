@@ -1,0 +1,9 @@
+form: the main form a root comes in
+form_alternate: a related but different form of the root
+glyph: a special character that represents the root(ex. :, !, ;, #)
+char: the hanzi character used to represent this character(should be simplified)
+meanings:
+    (pos) definition
+    ...
+origin: real life origin of word
+derivation: how the word is derived from other roots

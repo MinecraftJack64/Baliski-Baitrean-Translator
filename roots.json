@@ -81,12 +81,19 @@
         "meanings": [
             "blue",
             "grow/improve",
-            "good(obsolete)"
+            "good(obsolete, only as adjective suffix)"
         ],
         "origin": "1. B from Computers 'RGB'. 2. Unknown. 3. 'be'+'i'",
         "home": "av",
         "dependency": "kri",
         "id": 9
+    },
+    {
+        "form": "bin",
+        "meanings": [
+            "fruit"
+        ],
+        "origin": "Chinese ''"
     },
     {
         "form": "bla",
@@ -175,6 +182,14 @@
         "id": 11
     },
     {
+        "form": "ca",
+        "glyph": "#",
+        "meanings": [
+            "(import)"
+        ],
+        "origin": "Chinese '插'"
+    },
+    {
         "form": "ce",
         "meanings": [
             "after"
@@ -199,6 +214,13 @@
         "origin": "English 'child'",
         "home": "n",
         "id": 22
+    },
+    {
+        "form": "cin",
+        "meanings": [
+            "(endonym for the Cin)"
+        ],
+        "origin": "'ci'+'cen'"
     },
     {
         "form": "co",
@@ -228,6 +250,13 @@
         "origin": "'da' meaning 'you'",
         "home": "p",
         "id": 25
+    },
+    {
+        "form": "dak",
+        "meanings": [
+            "back side"
+        ],
+        "origin": "'da'+'vek'"
     },
     {
         "form": "dar",
@@ -377,10 +406,9 @@
     {
         "form": "fe",
         "meanings": [
-            "feeling",
-            "challenge/game"
+            "feeling"
         ],
-        "origin": "1. English 'feel'; 2. Retrofitted from Spanish 'feliz'",
+        "origin": "English 'feel'",
         "id": 42
     },
     {
@@ -426,8 +454,7 @@
     {
         "form": "fle**",
         "meanings": [
-            "play",
-            "be entertained"
+            "challenge/competitive game"
         ],
         "origin": "onomatopoeia",
         "id": 48
@@ -539,6 +566,14 @@
         "id": 61
     },
     {
+        "form": "gon",
+        "form_alternate": "gyon",
+        "meanings": [
+            "fuck"
+        ],
+        "origin": "From 'go'"
+    },
+    {
         "form": "ha",
         "form_alternate": "hia",
         "meanings": [
@@ -613,8 +648,14 @@
         "id": 70
     },
     {
+        "form": "ja",
+        "meanings": [
+            "and(objects, forms a group)"
+        ],
+        "origin": "E"
+    },
+    {
         "form": "jan",
-        "form_alternate": "ja",
         "meanings": [
             "combine/with/together/mix"
         ],
@@ -632,7 +673,7 @@
     {
         "form": "jik",
         "meanings": [
-            "exclusive"
+            "except"
         ],
         "origin": "j- +unknown",
         "id": 73
@@ -649,20 +690,33 @@
     {
         "form": "jo",
         "meanings": [
-            "group",
-            "or(inclusive)"
+            "group"
         ],
         "origin": "English 'join'",
         "id": 75
     },
     {
+        "form": "jon",
+        "meanings": [
+            "or(inclusive)"
+        ],
+        "origin": "from 'jo'"
+    },
+    {
         "form": "ju",
         "meanings": [
             "alternative",
-            "other(not exclusive)"
+            "or(exclusive)"
         ],
         "origin": "j- (conjunction prefix)+French 'ou'",
         "id": 76
+    },
+    {
+        "form": "jun",
+        "meanings": [
+            "because/reason"
+        ],
+        "origin": "?"
     },
     {
         "form": "ka",
@@ -802,7 +856,7 @@
         "meanings": [
             "question/request for response"
         ],
-        "origin": "French 'quoi'",
+        "origin": "French 'quoi', 'ku'(old)+'e'",
         "id": 94
     },
     {
@@ -824,10 +878,18 @@
     {
         "form": "kyo",
         "meanings": [
-            "small undomesticated animal"
+            "small undomesticated animal",
+            "instance of class"
         ],
         "origin": "'tekio'",
         "id": 83
+    },
+    {
+        "form": "kü",
+        "meanings": [
+            "request more information"
+        ],
+        "origin": "'ku'(old)"
     },
     {
         "form": "la",
@@ -951,8 +1013,15 @@
         "id": 105
     },
     {
+        "form": "ma",
+        "glyph": ":",
+        "meanings": [
+            "relationship(human)"
+        ],
+        "origin": "mama?"
+    },
+    {
         "form": "mak",
-        "form_alternate": "ma",
         "meanings": [
             "at most/up to",
             "maximum"
@@ -1025,6 +1094,13 @@
         ],
         "origin": "Unknown",
         "id": 118
+    },
+    {
+        "form": "mli",
+        "meanings": [
+            "female"
+        ],
+        "origin": "Unknown"
     },
     {
         "form": "mo",
@@ -1101,16 +1177,16 @@
         "id": 125
     },
     {
-        "form": "nyu",
+        "form": "no",
         "meanings": [
-            "new"
+            "concept",
+            "everything except/don't(imperative)"
         ],
-        "origin": "English 'new'",
-        "id": 126
+        "origin": "Indo-European negator"
     },
     {
-        "form": "nü",
-        "form_alternate": "nu",
+        "form": "nu",
+        "form_alternate": "nü",
         "meanings": [
             "not/none/0"
         ],
@@ -1125,6 +1201,14 @@
             "space"
         ],
         "origin": "'nu'+'na'"
+    },
+    {
+        "form": "nyu",
+        "meanings": [
+            "new"
+        ],
+        "origin": "English 'new'",
+        "id": 126
     },
     {
         "form": "o",
@@ -1358,6 +1442,13 @@
         ],
         "origin": "Chinese '瓷'",
         "id": 155
+    },
+    {
+        "form": "qo",
+        "meanings": [
+            "flesh"
+        ],
+        "origin": "'tan'+'so'"
     },
     {
         "form": "qu",
@@ -1744,6 +1835,13 @@
         "id": 195
     },
     {
+        "form": "tü",
+        "meanings": [
+            "difference"
+        ],
+        "origin": "?"
+    },
+    {
         "form": "u",
         "meanings": [
             "all-encompassing/ubiquitous"
@@ -1790,6 +1888,13 @@
         ],
         "origin": "English 'vector'",
         "id": 205
+    },
+    {
+        "form": "ven",
+        "meanings": [
+            "face"
+        ],
+        "origin": "Backformed from 've' and 'vek'"
     },
     {
         "form": "vi",
@@ -2018,6 +2123,14 @@
         ],
         "origin": "Unknown",
         "id": 226
+    },
+    {
+        "form": "zi",
+        "meanings": [
+            "group interaction",
+            "inclusive"
+        ],
+        "origin": "'ti'(old) dominant form"
     },
     {
         "form": "zo",

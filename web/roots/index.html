@@ -7,6 +7,12 @@
         <p>
             HELLO
         </p>
+        <div id="root-table">
+            <input type="checkbox" id="table-show-coda" name="show-coda" value="" checked>
+            <label for="show-coda">Show roots with coda</label><br>
+            <input type="checkbox" id="table-show-glide" name="show-glide" value="" checked>
+            <label for="show-glide">Show roots with 2nd consonants</label><br>
+        </div>
         <ul id="roots">
         </ul>
         <button onclick="showAddRootForm()" id="form-add">ADD ROOT</button>
@@ -28,6 +34,7 @@
             <input type="submit" value="ADD">
         </form>
         <a href="../index.html">HOME</a>
+        <script src="table.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
