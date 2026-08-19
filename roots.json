@@ -1,136 +1,200 @@
 [
     {
-        "form": "a",
+        "form": "-a",
+        "form_alternate": "an",
+        "TODO": "",
         "meanings": [
-            "have(as a part(inalienable))"
+            "(PP) nearby"
         ],
-        "origin": "French 'a'",
-        "id": 0
+        "derivation": "2. '-a'+'na'"
+    },
+    {
+        "form": "-e",
+        "meanings": [
+            "(PP) with(using/alongside/related to), by"
+        ],
+        "derivation": "'de'",
+        "id": 37
+    },
+    {
+        "form": "-i",
+        "meanings": [
+            "(PP) at"
+        ],
+        "origin": "French 'ici'"
+    },
+    {
+        "form": "-o",
+        "meanings": [
+            "(PP) about"
+        ],
+        "origin": "?"
+    },
+    {
+        "form": "-u",
+        "meanings": [
+            "(PP) to(verb and noun sense)"
+        ],
+        "origin": "English 'to'"
+    },
+    {
+        "form": "a",
+        "glyph": ".",
+        "char": "有",
+        "meanings": [
+            "(PP) have(as a part(inalienable))"
+        ],
+        "origin": "French 'a'"
     },
     {
         "form": "ak",
+        "glyph": ";",
+        "char": ";",
         "meanings": [
-            "sentence ender(rare)"
+            "(P) (sentence ender(rare))"
         ],
-        "id": 1
-    },
-    {
-        "form": "an",
-        "form_alternate": "a",
-        "meanings": [
-            "nearby"
-        ],
-        "origin": "-a",
-        "id": 2
+        "origin": "?"
     },
     {
         "form": "ar",
+        "char": "紅",
         "meanings": [
-            "red"
+            "(AAD)(DEP 'kri') red"
         ],
         "origin": "R from Computers 'RGB'",
-        "dependency": "kri",
-        "home": "a",
-        "id": 3
+        "derivation": "'har' related"
     },
     {
         "form": "ba",
+        "char": "另",
         "meanings": [
-            "seperate",
-            "it/that"
+            "(AD/N) seperate"
         ],
-        "origin": "possibly from English 'ballast'",
-        "home": "p",
-        "id": 4
+        "origin": "Programming 'bar'"
+    },
+    {
+        "form": "bak",
+        "char": "別",
+        "meanings": [
+            "(N) thing(secondary)"
+        ],
+        "origin": "Programming 'bar'",
+        "derivation": "'ba'"
     },
     {
         "form": "ban",
+        "char": "左",
         "meanings": [
-            "left"
+            "(AD/NSI) left"
         ],
-        "origin": "Unknown",
-        "id": 5
+        "derivation": "'ba'+'na'(other place/side)"
     },
     {
         "form": "be",
+        "form_alternate": "bi",
+        "char": "好",
         "meanings": [
-            "moral(good)"
+            "(AD) good(moral)",
+            "good(adjectivial suffix)"
         ],
-        "origin": "possibly from English 'best' or French 'belle'",
-        "id": 6
+        "origin": "possibly from English 'better'/'best' or French 'bon'/'bien'",
+        "derivation": "2. 'be'+'i'(good-ADJ)"
     },
     {
         "form": "ben",
+        "char": "清",
         "meanings": [
-            "clean",
-            "pure"
+            "(AD) clean",
+            "(AD) pure"
         ],
-        "origin": "'be'+'na'",
-        "id": 7
+        "derivation": "'be'+'na'(good state)"
     },
     {
         "form": "bey",
+        "char": "TODO",
         "meanings": [
-            "benefit from"
+            "(V/AD) benefit from/beneficial"
         ],
-        "origin": "'be'+'i'",
-        "id": 8
+        "origin": "Chinese '被'",
+        "derivation": "'be'+'i'(good-PAST)"
+    },
+    {
+        "form": "bi",
+        "char": "藍",
+        "meanings": [
+            "(AAD)(DEP 'kri') blue"
+        ],
+        "origin": "B from Computers 'RGB'"
     },
     {
         "form": "bi",
         "meanings": [
-            "blue",
-            "grow/improve",
-            "good(obsolete, only as adjective suffix)"
+            "(V) grow/(with skill as object)improve",
+            "(V)(obsolete) sleep"
         ],
-        "origin": "1. B from Computers 'RGB'. 2. Unknown. 3. 'be'+'i'",
-        "home": "av",
-        "dependency": "kri",
-        "id": 9
+        "origin": "?, maybe related to bi(blue) as the color of sleep/growth?"
     },
     {
         "form": "bin",
+        "char": "果",
         "meanings": [
-            "fruit"
+            "(N) fruit"
         ],
-        "origin": "Chinese ''"
+        "origin": "Chinese '蘋'",
+        "derivation": "'bi'(grow)+?"
     },
     {
         "form": "bla",
+        "char": "基",
         "meanings": [
-            "base/supporting structure"
+            "(N) base/supporting structure"
         ],
-        "origin": "Unknown, possibly from 'pla'",
-        "id": 12
+        "origin": "?, possibly from 'pla'"
     },
     {
         "form": "ble",
+        "char": "誤",
         "meanings": [
-            "fail/miss"
+            "(V) fail/miss"
         ],
-        "origin": "English 'blemish'",
-        "home": "d",
-        "id": 13
+        "origin": "English 'blemish' or Chinese '敗了'",
+        "derivation": "'be'+'le'(far from good)"
     },
     {
         "form": "bli",
+        "char": "錯",
         "meanings": [
-            "problem"
+            "(N/AD) problem"
         ],
-        "origin": "from 'ble'",
-        "id": 14
+        "origin": "English 'problem'",
+        "derivation": "'ble'"
+    },
+    {
+        "form": "blik",
+        "char": "",
+        "meanings": [
+            "(V/N) extract"
+        ],
+        "derivation": "'bey'/'ba'+'li'+'ik'"
+    },
+    {
+        "form": "blo",
+        "meanings": [
+            "disease/illness"
+        ],
+        "derivation": "'bli'+'o'. related to 'plo'(old, from weak form of pyo)"
     },
     {
         "form": "bo",
+        "char": "兒",
         "meanings": [
             "physical object(usually rounder/smaller). Also see 'ko'"
         ],
-        "origin": "English 'ball' or 'bouba'",
-        "home": "n",
-        "id": 15
+        "origin": "English 'ball' or 'bouba'"
     },
     {
         "form": "bra",
+        "char": "臂",
         "meanings": [
             "arm/limb"
         ],
@@ -140,50 +204,51 @@
     },
     {
         "form": "bri",
+        "form_alternate": "by",
+        "char": "睡",
         "meanings": [
-            "grow(Note: may be deprecated)"
+            "sleep"
         ],
-        "origin": "Split from bi",
-        "id": 17
+        "derivation": "sub 'bi'"
     },
     {
         "form": "bu",
+        "char": "确",
         "meanings": [
             "truth(yes or no)"
         ],
         "category": "quality",
-        "origin": "English 'boolean'",
-        "home": "a",
-        "id": 18
+        "origin": "English 'boolean'"
     },
     {
         "form": "bun",
+        "char": "翻",
         "meanings": [
             "toggle bu"
         ],
-        "origin": "bu+ni",
-        "id": 19
+        "derivation": "'bu'+'ni'"
     },
     {
         "form": "byo",
+        "char": "界",
         "meanings": [
             "biome/environment"
         ],
-        "origin": "English 'biome'",
-        "home": "n",
-        "id": 10
+        "origin": "English 'biome'"
     },
     {
         "form": "byu",
+        "char": "好度",
         "meanings": [
             "goodness"
         ],
-        "origin": "'bi'(3)+'du'",
-        "id": 11
+        "category": "quantity",
+        "origin": "'bi'(good)+'du'"
     },
     {
         "form": "ca",
         "glyph": "#",
+        "char": "#",
         "meanings": [
             "(import)"
         ],
@@ -191,116 +256,114 @@
     },
     {
         "form": "ce",
+        "char": "後",
         "meanings": [
             "after"
         ],
-        "origin": "see 'cen'",
-        "home": "p",
-        "id": 20
+        "derivation": "'cen'"
     },
     {
         "form": "cen",
+        "char": "下個",
         "meanings": [
             "next one"
         ],
-        "origin": "French 'prochaine'",
-        "id": 21
+        "origin": "French 'prochaine'"
     },
     {
         "form": "ci",
+        "char": "子",
         "meanings": [
             "child"
         ],
-        "origin": "English 'child'",
-        "home": "n",
-        "id": 22
+        "origin": "English 'child'"
     },
     {
         "form": "cin",
+        "char": "下子",
         "meanings": [
             "(endonym for the Cin)"
         ],
-        "origin": "'ci'+'cen'"
+        "derivation": "'ci'+'cen'"
     },
     {
         "form": "co",
+        "char": "子兒",
         "meanings": [
             "diminutive"
         ],
-        "origin": "ci",
-        "id": 23
+        "derivation": "'ci'+'-o'"
     },
     {
         "form": "cu",
+        "char": "重",
         "meanings": [
-            "fall",
-            "weight"
+            "weight",
+            "fall"
         ],
         "category": "quality",
-        "origin": "French 'chute'",
-        "home": "va",
-        "id": 24
+        "origin": "French 'chute'"
     },
     {
         "form": "da",
+        "char": "反",
         "meanings": [
             "reverse",
             "other"
         ],
-        "origin": "'da' meaning 'you'",
-        "home": "p",
-        "id": 25
+        "derivation": "'da' meaning 'you'"
     },
     {
         "form": "dak",
+        "char": "背",
         "meanings": [
             "back side"
         ],
-        "origin": "'da'+'vek'"
+        "derivation": "'da'+'vek'"
     },
     {
         "form": "dar",
+        "char": "供",
         "meanings": [
             "offer"
         ],
         "origin": "Spanish 'dar'",
-        "id": 26
+        "derivation": "'da'+'har'(give maybe)"
     },
     {
         "form": "day",
+        "char": "帶",
         "meanings": [
             "carry/bring"
         ],
-        "origin": "Chinese '帶'",
-        "id": 27
+        "origin": "Chinese '帶'"
     },
     {
         "form": "de",
+        "char": "從",
         "meanings": [
-            "made from"
+            "from",
+            "(obsolete) delete"
         ],
-        "origin": "French 'de'",
-        "home": "p",
-        "id": 28
+        "origin": "French 'de'"
     },
     {
         "form": "dek",
+        "char": "底",
         "meanings": [
             "down/downwards"
         ],
         "origin": "English 'deck'(knocked to the ground)",
-        "home": "p",
-        "id": 29
+        "derivation": "'de'+'ek'(deleting end)"
     },
     {
         "form": "di",
+        "char": "地",
         "meanings": [
             "solid",
             "earth"
         ],
-        "origin": "Chinese '地'",
-        "home": "an",
-        "id": 30
+        "origin": "Chinese '地'"
     },
     {
         "form": "dir",
@@ -432,16 +495,17 @@
         "meanings": [
             "through water/swim"
         ],
-        "origin": "'fi+en'",
+        "origin": "'fi+in'",
         "id": 45
     },
     {
         "form": "fir",
         "meanings": [
-            "block"
+            "block",
+            "against"
         ],
         "origin": "Computers 'firewall'",
-        "id": 46
+        "derivation": "'fo'+'ir'(towards thing)"
     },
     {
         "form": "fla",
@@ -641,11 +705,9 @@
     {
         "form": "i",
         "meanings": [
-            "at",
             "past"
         ],
-        "origin": "French 'ici'",
-        "id": 70
+        "origin": "?"
     },
     {
         "form": "ja",
@@ -671,15 +733,8 @@
         "id": 72
     },
     {
-        "form": "jik",
-        "meanings": [
-            "except"
-        ],
-        "origin": "j- +unknown",
-        "id": 73
-    },
-    {
-        "form": "jin",
+        "form": "ji",
+        "glyph": "青",
         "meanings": [
             "green"
         ],
@@ -688,7 +743,16 @@
         "id": 74
     },
     {
+        "form": "jik",
+        "meanings": [
+            "except"
+        ],
+        "origin": "j- +unknown",
+        "id": 73
+    },
+    {
         "form": "jo",
+        "char": "群",
         "meanings": [
             "group"
         ],
@@ -942,6 +1006,14 @@
         "id": 101
     },
     {
+        "form": "li",
+        "form_alternate": "i",
+        "meanings": [
+            "(adjective marker(main form tails adjectives while alternate form tails nouns with some exceptions(like trui)))"
+        ],
+        "origin": "English '-ly' or '-y'"
+    },
+    {
         "form": "lik",
         "meanings": [
             "through"
@@ -962,21 +1034,41 @@
         "form": "lo",
         "meanings": [
             "part of",
-            "small version/variant",
-            "log/record"
+            "small version/variant"
         ],
-        "origin": "Unknown; 3. English 'log'",
+        "origin": "Unknown",
         "id": 106
     },
     {
-        "form": "loq",
-        "form_alternate": "lots",
+        "form": "lo",
+        "form_alternate": "lot",
         "meanings": [
-            "allow",
-            "ability"
+            "ability",
+            "permission(obsolete)"
         ],
         "origin": "English 'allow' or 'allot'",
         "id": 107
+    },
+    {
+        "form": "lon",
+        "meanings": [
+            "log/record"
+        ],
+        "origin": "English 'log'"
+    },
+    {
+        "form": "lra",
+        "meanings": [
+            "lock/keep in state"
+        ],
+        "origin": "English 'lock'"
+    },
+    {
+        "form": "lre",
+        "meanings": [
+            "creep/stalk?"
+        ],
+        "origin": "?"
     },
     {
         "form": "lri",
@@ -1061,6 +1153,7 @@
         ],
         "category": "quantity",
         "origin": "English 'mini' or 'micro' or Chinese '米'",
+        "derivation": "'mey' from 'bey'(compare)",
         "id": 114
     },
     {
@@ -1078,6 +1171,13 @@
         ],
         "origin": "English 'minimum'",
         "id": 116
+    },
+    {
+        "form": "mir",
+        "meanings": [
+            "block up/clog"
+        ],
+        "derivation": "'men'+'fir'"
     },
     {
         "form": "mla",
@@ -1213,11 +1313,9 @@
     {
         "form": "o",
         "meanings": [
-            "with(using/alongside/related to), by",
-            "in agreement"
+            "in agreement/?"
         ],
-        "origin": "English 'yes'",
-        "id": 128
+        "origin": "English 'oh'"
     },
     {
         "form": "pa",
@@ -1284,12 +1382,28 @@
         "id": 136
     },
     {
+        "form": "pen",
+        "meanings": [
+            "scoop/shovel up/out"
+        ],
+        "origin": "French 'pelle' or Chinese '捧'"
+    },
+    {
         "form": "pi",
         "meanings": [
             "of/from(one/some from a larger group)"
         ],
         "origin": "Unknown",
         "id": 137
+    },
+    {
+        "form": "pir",
+        "meanings": [
+            "spice",
+            "detail"
+        ],
+        "origin": "French 'piquant'",
+        "derivation": "'pa'+'hir'"
     },
     {
         "form": "pla",
@@ -1444,6 +1558,13 @@
         "id": 155
     },
     {
+        "form": "qir",
+        "meanings": [
+            "unit"
+        ],
+        "derivation": "dom 'sir'"
+    },
+    {
         "form": "qo",
         "meanings": [
             "flesh"
@@ -1455,7 +1576,7 @@
         "meanings": [
             "family"
         ],
-        "origin": "Unknown",
+        "origin": "'qo'+'tu'",
         "id": 156
     },
     {
@@ -1561,6 +1682,14 @@
         ],
         "origin": "English 'syn-'",
         "id": 169
+    },
+    {
+        "form": "sir",
+        "meanings": [
+            "protect",
+            "skin"
+        ],
+        "derivation": "'so'+'ir'(towards body?)"
     },
     {
         "form": "sla",
@@ -1693,6 +1822,14 @@
         "id": 185
     },
     {
+        "form": "svu",
+        "form_alternate": "swo",
+        "meanings": [
+            "skill/master"
+        ],
+        "derivation": "'svi'+'du'"
+    },
+    {
         "form": "sy",
         "meanings": [
             "do"
@@ -1775,6 +1912,14 @@
         "origin": "'tiko'"
     },
     {
+        "form": "tir",
+        "meanings": [
+            "attack(not necessarily physical)"
+        ],
+        "origin": "French 'tir'",
+        "derivation": "dom 'qir'"
+    },
+    {
         "form": "to",
         "meanings": [
             "tool",
@@ -1793,6 +1938,7 @@
     },
     {
         "form": "tru",
+        "char": "真",
         "meanings": [
             "truth(reality)"
         ],
@@ -1844,10 +1990,17 @@
     {
         "form": "u",
         "meanings": [
-            "all-encompassing/ubiquitous"
+            "all-encompassing/ubiquitous",
+            "span/duration"
         ],
-        "origin": "English 'ubiquitous'",
-        "id": 201
+        "origin": "English 'ubiquitous'"
+    },
+    {
+        "form": "uk",
+        "meanings": [
+            "(true future)"
+        ],
+        "derivation": "'-u'+'ek'"
     },
     {
         "form": "un",
@@ -1903,7 +2056,15 @@
         ],
         "category": "quantity",
         "origin": "English 'very'",
+        "derivation": "'vey' from 'bey'(compare)",
         "id": 206
+    },
+    {
+        "form": "vin",
+        "meanings": [
+            "great/grand"
+        ],
+        "derivation": "'vi'+'na'"
     },
     {
         "form": "vle",
@@ -1973,6 +2134,13 @@
         "id": 214
     },
     {
+        "form": "wey",
+        "meanings": [
+            "(desired future)"
+        ],
+        "origin": "English 'will' and Chinese '會'"
+    },
+    {
         "form": "wi",
         "meanings": [
             "gas/air"
@@ -2005,6 +2173,13 @@
         "id": 230
     },
     {
+        "form": "xe",
+        "meanings": [
+            "amount(continuous)"
+        ],
+        "derivation": "Backformation from 'xey'(more than)"
+    },
+    {
         "form": "xi",
         "meanings": [
             "often"
@@ -2020,6 +2195,14 @@
         ],
         "origin": "Related to 'sis', from programming 'sys'. See 'sy'",
         "id": 232
+    },
+    {
+        "form": "xir",
+        "char": "獅",
+        "meanings": [
+            "lion"
+        ],
+        "origin": "Persian 'شیر'"
     },
     {
         "form": "xo",

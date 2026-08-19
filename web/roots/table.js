@@ -1,6 +1,11 @@
 const firstOnsets = {};
 let onset = {
     "": [],
+    "-": [
+        "r",
+        "y",
+        "w"
+    ],
     "h": ["liq"],
     "r": [],
     "y": [],

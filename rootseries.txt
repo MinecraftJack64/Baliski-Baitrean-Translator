@@ -1,7 +1,7 @@
 All Root Series
 c - inheritance
-k - system relations
-g - system
+k - system(has mostly merged with g)
+g - system relations
 h - nature
 j - conjunction/group
 l - freedom/ability
@@ -26,4 +26,4 @@ i - ?
 o - noun
 u - ?
 r - ?
-l - e
+l - that

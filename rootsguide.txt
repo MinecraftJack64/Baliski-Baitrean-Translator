@@ -7,3 +7,8 @@ meanings:
     ...
 origin: real life origin of word
 derivation: how the word is derived from other roots
+
+ROOT CATEGORIES
+STATE
+POSSESSION/PART
+EXIST
