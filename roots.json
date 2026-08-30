@@ -964,6 +964,13 @@
         "id": 97
     },
     {
+        "form": "lak",
+        "meanings": [
+            "clothing"
+        ],
+        "derivation": "'la'+'ke'"
+    },
+    {
         "form": "lay",
         "form_alternate": "lai",
         "meanings": [
@@ -1449,7 +1456,8 @@
     {
         "form": "po",
         "meanings": [
-            "parent"
+            "parent",
+            "augmentative"
         ],
         "origin": "Chinese '婆'",
         "id": 145
@@ -1700,6 +1708,14 @@
         "id": 170
     },
     {
+        "form": "sle",
+        "meanings": [
+            "relax/at ease"
+        ],
+        "origin": "English 'sleep'",
+        "derivation": "'se'+'le'"
+    },
+    {
         "form": "sli",
         "meanings": [
             "be able to"
@@ -1735,9 +1751,10 @@
     {
         "form": "spa",
         "meanings": [
-            "manmade structure"
+            "yard"
         ],
-        "origin": "Unknwon, possibly from a mixture of English 'skyscraper'",
+        "origin": "English 'space' or 'park'",
+        "derivation": "Unknown+'pan'",
         "id": 175
     },
     {
@@ -1759,9 +1776,9 @@
     {
         "form": "spo",
         "meanings": [
-            "augmentative"
+            "manmade structure"
         ],
-        "origin": "Related to 'spa'",
+        "origin": "Unknwon, possibly from a mixture of English 'skyscraper'",
         "id": 178
     },
     {
