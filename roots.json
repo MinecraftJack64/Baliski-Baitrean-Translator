@@ -322,6 +322,13 @@
         "derivation": "'da'+'vek'"
     },
     {
+        "form": "dan",
+        "meanings": [
+            "respond to question"
+        ],
+        "derivation": "'do'+'an'(old, from English 'answer')"
+    },
+    {
         "form": "dar",
         "char": "供",
         "meanings": [
@@ -357,6 +364,14 @@
         "derivation": "'de'+'ek'(deleting end)"
     },
     {
+        "form": "den",
+        "meanings": [
+            "then(vok but conditional)"
+        ],
+        "origin": "English 'den'",
+        "derivation": "'de'+'na'"
+    },
+    {
         "form": "di",
         "char": "地",
         "meanings": [
@@ -385,12 +400,26 @@
         "id": 34
     },
     {
+        "form": "dra",
+        "meanings": [
+            "interface/public"
+        ],
+        "derivation": "'do'+'ra'"
+    },
+    {
         "form": "dro",
         "meanings": [
             "reaction"
         ],
         "origin": "'do'+'ro'",
         "id": 35
+    },
+    {
+      "form": "dru",
+      "meanings": [
+        "breast/milk"
+      ],
+      "origin": "?"
     },
     {
         "form": "du",
@@ -516,12 +545,35 @@
         "id": 47
     },
     {
-        "form": "fle**",
+        "form": "fle",
         "meanings": [
             "challenge/competitive game"
         ],
         "origin": "onomatopoeia",
         "id": 48
+    },
+    {
+        "form": "flek",
+        "meanings": [
+            "stretch"
+        ],
+        "origin": "English 'flex'",
+        "derivation": "'fi'+'le(k)'"
+    },
+    {
+        "form": "fli",
+        "meanings": [
+            "male"
+        ],
+        "derivation": "'fë'+'li'"
+    },
+    {
+        "form": "flo",
+        "meanings": [
+            "stream"
+        ],
+        "origin": "English 'flow', French 'fil'",
+        "derivation": "'fi'+'lo'"
     },
     {
         "form": "flu",
@@ -599,7 +651,7 @@
     {
         "form": "gen",
         "meanings": [
-            "constrain"
+            "constrain(see 'tay')"
         ],
         "origin": "?",
         "id": 58
@@ -639,9 +691,9 @@
     },
     {
         "form": "ha",
-        "form_alternate": "hia",
+        "form_alternate": "hya",
         "meanings": [
-            "desire"
+            "(subjunctive)"
         ],
         "origin": "Chinese '啊' and '呀'",
         "id": 62
@@ -655,9 +707,16 @@
         "id": 63
     },
     {
+        "form": "he",
+        "meanings": [
+            "natural"
+        ],
+        "origin": "?"
+    },
+    {
         "form": "hi",
         "meanings": [
-            "sentence starter generic"
+            "(predicate start particle)"
         ],
         "origin": "Spanish 'y'",
         "id": 64
@@ -689,17 +748,24 @@
     {
         "form": "hoy",
         "meanings": [
-            "call?"
+            "(attention call)"
         ],
         "origin": "Multilingual 'hey'",
         "id": 68
+    },
+    {
+        "form": "hu",
+        "meanings": [
+            "?"
+        ],
+        "origin": "?"
     },
     {
         "form": "hü",
         "meanings": [
             "foreign/alien"
         ],
-        "origin": "h(nature)+ü(supernatural?)",
+        "derivation": "'he'+'ü'",
         "id": 69
     },
     {
@@ -971,6 +1037,13 @@
         "derivation": "'la'+'ke'"
     },
     {
+        "form": "lar",
+        "meanings": [
+            "freedom"
+        ],
+        "derivation": "'la'+'ny'(submissive)"
+    },
+    {
         "form": "lay",
         "form_alternate": "lai",
         "meanings": [
@@ -998,7 +1071,7 @@
     {
         "form": "len",
         "meanings": [
-            "remain/persist"
+            "length"
         ],
         "origin": "lek+na",
         "id": 100
@@ -1086,6 +1159,13 @@
         "id": 108
     },
     {
+        "form": "lru",
+        "meanings": [
+            "accessibility"
+        ],
+        "origin": "?"
+    },
+    {
         "form": "lu",
         "meanings": [
             "complexity"
@@ -1166,7 +1246,7 @@
     {
         "form": "mik",
         "meanings": [
-            "smallest(indivisible)"
+            "smallest(indivisible, quantum)"
         ],
         "origin": "English 'micro'"
     },
@@ -1207,7 +1287,7 @@
         "meanings": [
             "female"
         ],
-        "origin": "Unknown"
+        "derivation": "'më'+'li'"
     },
     {
         "form": "mo",
@@ -1233,6 +1313,13 @@
         "category": "quality",
         "origin": "Chinese '目'",
         "id": 121
+    },
+    {
+      "form": "mya",
+      "meanings": [
+        "cat"
+      ],
+      "origin": "onomatopoeia"
     },
     {
         "form": "mye",
@@ -1558,6 +1645,13 @@
         "id": 154
     },
     {
+        "form": "qe",
+        "meanings": [
+            "electricity"
+        ],
+        "origin": "onomatopoeia of thunder? or from Chinese '电'"
+    },
+    {
         "form": "qi",
         "meanings": [
             "porcelain"
@@ -1584,7 +1678,16 @@
         "meanings": [
             "family"
         ],
-        "origin": "'qo'+'tu'",
+        "derivation": "'qo'+'tu'",
+        "id": 156
+    },
+    {
+        "form": "tyu",
+        "form_alternate": "qu**",
+        "meanings": [
+            "duration"
+        ],
+        "derivation": "'ti'+'u'",
         "id": 156
     },
     {
@@ -1720,7 +1823,7 @@
         "meanings": [
             "be able to"
         ],
-        "origin": "Unknown",
+        "derivation": "'su'+'lo'+'i'",
         "id": 171
     },
     {
@@ -1800,7 +1903,8 @@
     {
         "form": "su",
         "meanings": [
-            "quality"
+            "quality",
+            "verb suffix"
         ],
         "category": "quality",
         "origin": "Chinese '素'",
@@ -1887,6 +1991,13 @@
         ],
         "origin": "English 'tar'",
         "id": 189
+    },
+    {
+        "form": "tay",
+        "meanings": [
+            "constraint"
+        ],
+        "derivation": "'tan'+'i'"
     },
     {
         "form": "te",
@@ -2175,6 +2286,7 @@
     },
     {
         "form": "wu",
+        "form_alternate": "wü",
         "meanings": [
             "mass"
         ],
@@ -2260,7 +2372,7 @@
             "undergo",
             "receive from an action"
         ],
-        "origin": "'i'+'e'",
+        "derivation": "'i'+'e'",
         "id": 220
     },
     {
@@ -2283,7 +2395,6 @@
     },
     {
         "form": "za",
-        "form_alternate": "uza",
         "meanings": [
             "god",
             "supernatural force"
@@ -2296,7 +2407,7 @@
         "meanings": [
             "rule"
         ],
-        "origin": "'zana'",
+        "origin": "'za'+'na'",
         "id": 223
     },
     {
@@ -2349,6 +2460,7 @@
             "area"
         ],
         "origin": "English 'zone'",
+        
         "id": 228
     },
     {
