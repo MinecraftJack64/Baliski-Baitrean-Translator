@@ -12,8 +12,13 @@ n - negative
 m - circle of life
 ny/r - submissive/round
 s - action
-t - change
+t - change/structure
+d - demonstrative/social interaction
+q - body/flesh
+lr - secret/private/restrict
+sl - freedom
 hw - intangible
+ml - feminine
 w(u-) - future(young)
 x - number
 y(i-) - past(young)
