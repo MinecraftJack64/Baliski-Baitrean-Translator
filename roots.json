@@ -648,6 +648,13 @@
         "id": 56
     },
     {
+        "form": "gla",
+        "meanings": [
+            "marriage"
+        ],
+        "derivation": "backformation from 'tagolao', essentially 'go'+'la'"
+    },
+    {
         "form": "ge",
         "meanings": [
             "process(altering object)"
@@ -690,7 +697,7 @@
     },
     {
         "form": "gon",
-        "form_alternate": "gyon",
+        "form_alternate": "gyon/gyo",
         "meanings": [
             "fuck"
         ],
@@ -2372,6 +2379,13 @@
         ],
         "origin": "Chinese '要'",
         "id": 218
+    },
+    {
+        "form": "yak",
+        "meanings": [
+            "cost/requirement for non-obligatory thing"
+        ],
+        "derivation": "'ya'+'ko'"
     },
     {
         "form": "ye",
