@@ -706,6 +706,13 @@
         "id": 62
     },
     {
+        "form": "hak",
+        "meanings": [
+            "paper"
+        ],
+        "derivation": "'har'+'ek'"
+    },
+    {
         "form": "har",
         "meanings": [
             "plant"
@@ -1414,9 +1421,17 @@
     {
         "form": "o",
         "meanings": [
-            "in agreement/?"
+            "in agreement",
+            "(profound perfect)"
         ],
         "origin": "English 'oh'"
+    },
+    {
+        "form": "on",
+        "meanings": [
+            "complete/filled"
+        ],
+        "derivation": "'o'+'na'"
     },
     {
         "form": "pa",
@@ -2159,6 +2174,13 @@
         ],
         "origin": "'vek' or 'va'+'be'",
         "id": 203
+    },
+    {
+        "form": "van",
+        "meanings": [
+            "explore"
+        ],
+        "derivation": "'va'(each of)+'no'(unknown/abstract)"
     },
     {
         "form": "ve",
